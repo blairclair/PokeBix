@@ -1,0 +1,12 @@
+result-view  {
+  match  {
+    characteristic  (this)
+  }
+  render  {
+    layout-macro (poke-details-macro){
+      param  (characteristic){
+        expression (this)
+      }
+    }
+  }
+}

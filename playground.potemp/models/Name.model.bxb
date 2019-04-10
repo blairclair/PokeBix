@@ -1,0 +1,11 @@
+structure (Name) {
+  description (yeah)
+  property (name) {
+    type (name)
+    min (Optional) max (One)
+  }
+  property (language) {
+    type (language)
+    min (Optional) max (One)
+  }
+}

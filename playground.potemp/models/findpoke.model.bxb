@@ -1,0 +1,5 @@
+action (findpoke) {
+  type(Search)
+  description (__DESCRIPTION__)
+  output (characteristic)
+}

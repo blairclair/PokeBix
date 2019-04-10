@@ -1,0 +1,7 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (findpoke) {
+      local-endpoint (findpoke.js)
+    }
+  }
+}

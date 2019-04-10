@@ -1,0 +1,3 @@
+integer (id) {
+  description (characteristic id)
+}

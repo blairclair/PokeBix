@@ -1,0 +1,3 @@
+integer (possible_values) {
+  description (__DESCRIPTION__)
+}

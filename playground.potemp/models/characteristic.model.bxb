@@ -1,0 +1,26 @@
+structure (characteristic) {
+  property (id) {
+    type (id)
+    min (Required) max (One)
+  }
+  property (highest_stat){
+    type  (NamedAPIResource)
+    min  (Optional) max  (One)
+  }
+  property (gene_modulo) {
+    type (gene_modulo)
+    min (Optional) max (One)
+  }
+  property (possible_values) {
+    type (possible_values)
+    min (Optional) max (Many)
+  }
+  property (descriptions) {
+    type (descriptions)
+    min (Optional) max (Many)
+  }
+  property (language) {
+    type (language)
+    min (Optional) max (One)
+  }
+}

@@ -1,0 +1,11 @@
+structure (descriptions) {
+  description (descriptions)
+  property (description) {
+    type (description)
+    min (Optional) max (One)
+  }
+  property (language) {
+    type (language)
+    min (Optional) max (Many)
+  }
+}
