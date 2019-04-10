@@ -1,0 +1,3 @@
+integer (PokemonMoveVersion_level_learned_at) {
+  description (The minimum level to learn the move)
+}

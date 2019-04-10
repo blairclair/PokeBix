@@ -1,0 +1,3 @@
+integer (Pokemon_base_experince) {
+  description (Pokemon starting experince)
+}

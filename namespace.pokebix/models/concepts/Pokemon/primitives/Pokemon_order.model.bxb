@@ -1,0 +1,3 @@
+integer (Pokemon_order) {
+  description (Order for sorting. almost national order, except families are grouped together)
+}

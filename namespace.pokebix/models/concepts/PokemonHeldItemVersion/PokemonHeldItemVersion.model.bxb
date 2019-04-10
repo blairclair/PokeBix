@@ -1,0 +1,11 @@
+structure (PokemonHeldItemVersion) {
+  description (The version in which the item is held)
+  property (version) {
+    type (NamedAPIResourceVersion)
+    min (Required) max (One)
+  }
+  property (rarity) {
+    type (PokemonHeldItemVersion_rarity)
+    min (Required) max (One)
+  }
+}

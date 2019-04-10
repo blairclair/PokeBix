@@ -1,0 +1,15 @@
+structure (PokemonAbility) {
+  description (The abilities that pokemon have)
+  property (is_hidden) {
+    type (PokemonAbility_is_hidden)
+    min (Required) max (One)
+  }
+  property (slot) {
+    type (PokemonAbility_slot)
+    min (Required) max (One)
+  }
+  property (ability) {
+    type (NamedAPIResourceAbility)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,3 @@
+integer (pokemon_height) {
+  description (Height of the pokemon)
+}

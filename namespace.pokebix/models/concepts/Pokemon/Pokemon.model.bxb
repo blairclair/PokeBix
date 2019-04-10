@@ -1,0 +1,72 @@
+structure (Pokemon) {
+  property (id) {
+    type (Pokemon_id)
+    min (Required) max (One)
+  }
+  property (name){
+    type  (Pokemon_name)
+    min  (Required) max (One)
+  }
+  property (base_experince) {
+    type (Pokemon_base_experince)
+    min (Optional) max (One)
+  }
+  property (height) {
+    type (pokemon_height)
+    min (Optional) max (One)
+  }
+  property (is_default) {
+    type (Pokemon_is_default)
+    min (Optional) max (Many)
+  }
+  property (order) {
+    type (Pokemon_order)
+    min (Optional) max (One)
+  }
+  property (weight) {
+    type (Pokemon_weight)
+    min (Optional) max (One)
+  }
+  property (abilities) {
+    type (PokemonAbility)
+    min (Optional) max (Many)
+  }
+  property (forms) {
+    type (NamedAPIResource)
+    min (Optional) max (Many)
+  }
+  // property (game_indices) {
+  //   type (pokemon_game_indices)
+  //   min (Optional) max (One)
+  // }
+  property (held_items) {
+    type (PokemonHeldItem)
+    min (Optional) max (Many)
+  }
+  property (location_area_encounters) {
+    type (Pokemon_location_area_encounters)
+    min (Optional) max (One)
+  }
+  property (moves) {
+    type (PokemonMove)
+    min (Optional) max (Many)
+  }
+  property (sprites) {
+    type (PokemonSprites)
+    min (Optional) max (One)
+  }
+  property (species) {
+    type (NamedAPIResourcePokemonSpecies)
+    min (Required) max (One)
+  }
+  property (stats) {
+    type (PokemonStat)
+    min (Required) max (Many)
+  }
+  property (types)
+  {
+    type (PokemonType)
+    min (Required) max (Many)
+  }
+}
+

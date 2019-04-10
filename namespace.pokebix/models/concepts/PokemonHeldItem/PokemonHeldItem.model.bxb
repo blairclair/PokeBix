@@ -1,0 +1,11 @@
+structure (PokemonHeldItem) {
+  description (__DESCRIPTION__)
+  property (item) {
+    type (NamedAPIResourceItem)
+    min (Required) max (One)
+  }
+  property (version_details) {
+    type(PokemonHeldItemVersion)
+    min (Required) max (Many)
+  }
+}

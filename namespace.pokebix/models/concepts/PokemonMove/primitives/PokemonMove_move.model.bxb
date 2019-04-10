@@ -1,0 +1,3 @@
+text (PokemonMove_move) {
+  description (The move the Pokemon can learn)
+}

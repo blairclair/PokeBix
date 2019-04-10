@@ -1,0 +1,11 @@
+structure (PokemonMove) {
+  description (The move the pokemon can learn)
+  property (move) {
+    type (NamedAPIResourceMove)
+    min (Required) max (One)
+  }
+  property (version_group_details) {
+    type (PokemonMoveVersion)
+    min (Required) max (Many)
+  }
+}

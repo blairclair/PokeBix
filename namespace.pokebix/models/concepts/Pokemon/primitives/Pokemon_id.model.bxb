@@ -1,0 +1,3 @@
+integer (Pokemon_id) {
+  description (pokemon id)
+}

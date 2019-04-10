@@ -1,0 +1,3 @@
+integer (PokemonStat_effort) {
+  description (The effort points (EV) the Pokemon has in the stat.)
+}

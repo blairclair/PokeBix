@@ -1,0 +1,3 @@
+integer (PokemonStat_base_stat) {
+  description (The base value of the stat)
+}

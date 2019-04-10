@@ -1,0 +1,3 @@
+boolean (Pokemon_is_default) {
+  description (Set for exactly one Pokemon used as the default for each species.)
+}

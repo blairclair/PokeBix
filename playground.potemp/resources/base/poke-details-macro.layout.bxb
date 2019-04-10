@@ -11,7 +11,7 @@ layout-macro-def(poke-details-macro) {
     section {  // this macro returns a "section"
       content {
         paragraph {
-          value ("#{value(characteristic.)}")
+          value ("#{value(characteristic.id)}")
           style (Detail_M)
         }
       }

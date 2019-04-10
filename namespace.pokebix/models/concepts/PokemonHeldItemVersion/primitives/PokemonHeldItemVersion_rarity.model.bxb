@@ -1,0 +1,3 @@
+integer (PokemonHeldItemVersion_rarity) {
+  description (How often the item is held)
+}

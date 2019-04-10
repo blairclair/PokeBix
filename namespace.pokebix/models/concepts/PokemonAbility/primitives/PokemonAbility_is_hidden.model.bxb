@@ -1,0 +1,3 @@
+boolean (PokemonAbility_is_hidden) {
+  description (__DESCRIPTION__)
+}

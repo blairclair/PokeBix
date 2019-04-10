@@ -1,0 +1,15 @@
+structure (PokemonStat) {
+  description (The base stat values for a pokemon.)
+  property (stat) {
+    type (NamedAPIResourceStat)
+    min (Required) max (One)
+  }
+  property (effort) {
+    type (PokemonStat_effort)
+    min (Required) max (One)
+  }
+  property (base_stat) {
+    type (PokemonStat_base_stat)
+    min (Required) max (One)
+  }
+}

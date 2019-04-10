@@ -1,0 +1,15 @@
+structure (PokemonMoveVersion) {
+  description (The version of the pokemon move)
+  property (move_learn_method) {
+    type (NamedAPIResourceMoveLearnMethod)
+    min (Optional) max (One)
+  }
+  property (version_group) {
+    type (NamedAPIResourceVersionGroup)
+    min (Required) max (One)
+  }
+  property (level_learned_at) {
+    type (PokemonMoveVersion_level_learned_at)
+    min (Required) max (One)
+  }
+}

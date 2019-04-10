@@ -1,0 +1,35 @@
+structure (PokemonSprites) {
+  description (The images that represent the pokemon)
+  property (front_default) {
+    type (PokemonSprites_front_default)
+    min (Optional) max (One)
+  }
+  property (front_shiny) {
+    type (PokemonSprites_front_shiny)
+    min (Optional) max (One)
+  }
+  property (front_female) {
+    type (PokemonSprites_front_female)
+    min (Optional) max (One)
+  }
+  property (front_shiny_female) {
+    type (PokemonSprites_front_shiny_female)
+    min (Optional) max (One)
+  }
+  property (back_default) {
+    type (PokemonSprites_back_default)
+    min (Optional) max (One)
+  }
+  property (back_shiny) {
+    type (PokemonSprites_back_shiny)
+    min (Optional) max (One)
+  }
+  property (back_female) {
+    type (PokemonSprites_back_female)
+    min (Optional) max (One)
+  }
+  property (back_shiny_female) {
+    type (PokemonSprites_back_shiny_female)
+    min (Optional) max (One)
+  }
+}
