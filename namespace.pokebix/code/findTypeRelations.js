@@ -7,6 +7,7 @@ const type_effect_enum = {
   NO_DAMAGE_FROM: 'no damage from'
 }
 
+
 module.exports.function = function findTypeRelations(Type, Type_effect) {
   var names = new Array(3);
   var count = 0
