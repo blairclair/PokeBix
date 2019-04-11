@@ -31,6 +31,9 @@ layout-macro-def(findPokemonDetailsMacro) {
         paragraph  {
           value  ("abilities: #{value(Pokemon.abilities.ability.name)}")
         }
+        paragraph{
+          value ("cool fact: #{value(Pokemon.flavor_text)}")
+        }
       }
     }
   }

@@ -1,0 +1,3 @@
+integer (PokemonSpecies_hatch_counter) {
+  description (hatch counter)
+}

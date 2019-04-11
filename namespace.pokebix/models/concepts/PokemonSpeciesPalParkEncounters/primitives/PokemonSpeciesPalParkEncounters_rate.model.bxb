@@ -1,0 +1,3 @@
+integer (PokemonSpeciesPalParkEncounters_rate) {
+  description (__DESCRIPTION__)
+}

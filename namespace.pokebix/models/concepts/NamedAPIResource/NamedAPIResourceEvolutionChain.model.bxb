@@ -1,0 +1,7 @@
+structure (NamedAPIResourceEvolutionChain) {
+  description (A named API Resource)
+  property (url) {
+    type (NamedAPIResource_url)
+    min (Required) max (One)
+  }
+}

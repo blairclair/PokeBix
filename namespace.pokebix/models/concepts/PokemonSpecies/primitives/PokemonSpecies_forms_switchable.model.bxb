@@ -1,0 +1,3 @@
+boolean (PokemonSpecies_forms_switchable) {
+  description (are forms switchable)
+}

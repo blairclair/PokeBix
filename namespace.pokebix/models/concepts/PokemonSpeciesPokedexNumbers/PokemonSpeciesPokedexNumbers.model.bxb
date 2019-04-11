@@ -1,0 +1,11 @@
+structure (PokemonSpeciesPokedexNumbers) {
+  description (__DESCRIPTION__)
+  property (pokedex) {
+    type (NamedAPIResourcePokedex)
+    min (Required) max (One)
+  }
+  property (entry_number) {
+    type (PokemonSpeciesPokedexNumbers_entry_number)
+    min (Required) max (One)
+  }
+}

@@ -1,0 +1,3 @@
+boolean (PokemonSpecies_has_gender_differences) {
+  description (has_gender_differences)
+}

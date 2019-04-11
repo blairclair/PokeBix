@@ -1,0 +1,104 @@
+structure (PokemonSpecies) {
+  description (further description of the pokemon)
+  property (base_happiness) {
+    type (PokemonSpecies_base_happiness)
+    min (Required) max (One)
+  }
+  property (capture_rate) {
+    type (PokemonSpecies_capture_rate)
+    min (Required) max (One)
+  }
+  property (color) {
+    type (NamedAPIResourcePokemonColor)
+    min (Required) max (One)
+  }
+  property (egg_groups) {
+    type (NamedAPIResourceEggGroups)
+    min (Required) max (Many)
+  }
+  property (evolution_chain) {
+    type (NamedAPIResourceEvolutionChain)
+    min (Required) max (One)
+  }
+    property (evolves_from_species) {
+    type (NamedAPIResourceEvolvesFromSpecies)
+    min (Optional) max (One)
+  }
+  property (flavor_text_entries)  {
+    type  (PokemonSpeciesFlavorTextEntries)
+    min (Required) max (Many)
+  }
+  property (form_descriptions)  {
+    type  (PokemonSpecies_form_description)
+    min (Optional) max (Many)
+  }
+  property (forms_switchable)  {
+    type  (PokemonSpecies_forms_switchable)
+    min (Required) max (One)
+  }
+  property (gender_rate)  {
+    type  (PokemonSpecies_gender_rate)
+    min (Required) max (One)
+  }
+  property (genera)  {
+    type  (PokemonSpeciesGenera)
+    min (Required) max (Many)
+  }
+  property (generation)  {
+    type  (NamedAPIResourceGeneration)
+    min (Required) max (One)
+  }
+ property (growth_rate)  {
+    type  (NamedAPIResourceGrowthRate)
+    min (Required) max (One)
+  }
+ property (habitat)  {
+    type  (NamedAPIResourceHabitat)
+    min (Required) max (One)
+  }
+  property (has_gender_differences)  {
+    type  (PokemonSpecies_has_gender_differences)
+    min (Required) max (One)
+  }
+  property (hatch_counter)  {
+    type  (PokemonSpecies_hatch_counter)
+    min (Required) max (One)
+  }
+  property (id)  {
+    type  (PokemonSpecies_id)
+    min (Required) max (One)
+  }
+  property (is_baby)  {
+    type  (PokemonSpecies_is_baby)
+    min (Required) max (One)
+  }
+  property (name)  {
+    type  (PokemonSpecies_name)
+    min (Required) max (One)
+  }
+  property (names)  {
+    type  (PokemonSpeciesNames)
+    min (Required) max (Many)
+  }
+  property (order)  {
+    type  (PokemonSpecies_order)
+    min (Required) max (One)
+  }
+  property (pal_park_encounters)  {
+    type  (PokemonSpeciesPalParkEncounters)
+    min (Required) max (Many)
+  }
+  property (pokedex_numbers)  {
+    type  (PokemonSpeciesPokedexNumbers)
+    min (Required) max (Many)
+  }
+  property (shape)  {
+    type  (NamedAPIResourceShape)
+    min (Required) max (One)
+  }
+  property (varieties)  {
+    type  (PokemonSpeciesVarieties)
+    min (Required) max (Many)
+  }
+  
+}

@@ -1,0 +1,3 @@
+integer (PokemonSpecies_base_happiness) {
+  description (base happiness)
+}

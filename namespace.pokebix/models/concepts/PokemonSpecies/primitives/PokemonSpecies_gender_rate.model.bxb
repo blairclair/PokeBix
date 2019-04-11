@@ -1,0 +1,3 @@
+integer (PokemonSpecies_gender_rate) {
+  description (gender_rate)
+}

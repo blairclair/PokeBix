@@ -1,0 +1,11 @@
+structure (PokemonSpeciesGenera) {
+  description (Genera)
+  property (genus) {
+    type (PokemonSpeciesGenera_genus)
+    min (Required) max (One)
+  }
+  property (language) {
+    type (NamedAPIResourceLanguage)
+    min (Required) max (One)
+  }
+}

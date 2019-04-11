@@ -68,5 +68,13 @@ structure (Pokemon) {
     type (Pokemon_weight)
     min (Optional) max (One)
   }
+  property (extra) {
+    type (PokemonSpecies)
+    min (Optional) max (One)
+  }
+  property (flavor_text){
+    type (Pokemon_flavor_text)
+    min (Optional) max (One)
+  }
 }
 

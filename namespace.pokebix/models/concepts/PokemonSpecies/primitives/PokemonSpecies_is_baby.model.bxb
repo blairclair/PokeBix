@@ -1,0 +1,3 @@
+boolean (PokemonSpecies_is_baby) {
+  description (is a baby)
+}

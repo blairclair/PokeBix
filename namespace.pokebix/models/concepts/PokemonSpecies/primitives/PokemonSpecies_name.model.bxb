@@ -1,0 +1,3 @@
+name (PokemonSpecies_name) {
+  description (name)
+}

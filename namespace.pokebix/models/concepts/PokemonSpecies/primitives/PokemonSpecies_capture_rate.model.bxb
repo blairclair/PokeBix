@@ -1,0 +1,3 @@
+integer (PokemonSpecies_capture_rate) {
+  description (capture rate)
+}

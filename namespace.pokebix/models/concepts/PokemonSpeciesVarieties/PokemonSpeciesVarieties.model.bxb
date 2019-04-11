@@ -1,0 +1,11 @@
+structure (PokemonSpeciesVarieties) {
+  description (__DESCRIPTION__)
+  property (pokemon) {
+    type (NamedAPIResourcePokemon)
+    min (Optional) max (One)
+  }
+  property (is_default) {
+    type (PokemonSpeciesVarieties_is_default)
+    min (Optional) max (One)
+  }
+}

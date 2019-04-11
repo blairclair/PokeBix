@@ -1,0 +1,11 @@
+structure (PokemonSpeciesNames) {
+  description (Names)
+  property (language) {
+    type (NamedAPIResourceLanguage)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (PokemonSpeciesNames_name)
+    min (Required) max (One)
+  }
+}

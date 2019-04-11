@@ -1,0 +1,15 @@
+structure (PokemonSpeciesPalParkEncounters) {
+  description (pal park encounters)
+  property (base_score) {
+    type (PokemonSpeciesPalParkEncounters_base_score)
+    min (Required) max (One)
+  }
+  property (rate) {
+    type (PokemonSpeciesPalParkEncounters_rate)
+    min (Required) max (One)
+  }
+  property (area) {
+    type (NamedAPIResourceArea)
+    min (Required) max (One)
+  }
+}

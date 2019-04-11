@@ -1,0 +1,3 @@
+text (Pokemon_flavor_text) {
+  description (__DESCRIPTION__)
+}

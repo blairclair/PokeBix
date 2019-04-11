@@ -1,0 +1,3 @@
+integer (PokemonSpeciesPalParkEncounters_base_score) {
+  description (__DESCRIPTION__)
+}

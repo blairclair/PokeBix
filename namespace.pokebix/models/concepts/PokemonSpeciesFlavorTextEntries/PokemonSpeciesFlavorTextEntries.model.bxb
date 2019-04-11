@@ -1,0 +1,15 @@
+structure (PokemonSpeciesFlavorTextEntries) {
+  description (flavor text entries)
+  property (flavor_text) {
+    type (PokemonSpeciesFlavorTextEntries_flavor_text)
+    min (Required) max (One)
+  }
+  property (language){
+    type (NamedAPIResourceLanguage)
+    min (Required) max (One)
+  }
+  property (version){
+    type (NamedAPIResourceVersion)
+    min (Required) max (One)
+  }
+}

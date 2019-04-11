@@ -1,5 +1,5 @@
-structure (NamedAPIResourceVersion) {
-description (A named API Resource)
+structure (NamedAPIResourceShape) {
+  description (A named API Resource)
   property (name) {
     type (NamedAPIResource_name)
     min (Optional) max (One)
