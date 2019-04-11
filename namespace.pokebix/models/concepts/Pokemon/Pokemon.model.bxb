@@ -12,7 +12,7 @@ structure (Pokemon) {
     min (Optional) max (Many)
   }
   property (game_indices) {
-    type (VersionGameIndex_game_index)
+    type (VersionGameIndex)
     min (Optional) max (Many)
   }
   property (height) {
