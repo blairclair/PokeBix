@@ -9,9 +9,6 @@ layout-macro-def(findPokemonDetailsMacro) {
 
   content {
     section {  // this macro returns a "section"
-      title {
-        template ("WHOS THAT POKEMON?")
-      }
       content {
         image {
           url ("#{value(Pokemon.sprites.front_default)}")

@@ -1,0 +1,23 @@
+layout-macro-def(findPokemonTypeByNameMacro) {
+  params {
+    param (Pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+         image {
+          url ("#{value(Pokemon.sprites.front_default)}")
+        }
+        paragraph {
+          value ("#{value(Pokemon.name)} is a #{value(Pokemon.types.type.name)} type")
+          style (Detail_M)
+        }
+      }
+    }
+  }
+}

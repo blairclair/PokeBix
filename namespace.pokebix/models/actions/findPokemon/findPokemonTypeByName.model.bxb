@@ -1,0 +1,11 @@
+action (findPokemonTypeByName) {
+  type(Search)
+  description (Finding a pokemons type by its name)
+  collect {
+    input (Pokemon_name) {
+      type (Pokemon_name)
+      min (Required) max (One)
+    }
+  }
+  output (Pokemon)
+}

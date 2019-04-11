@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: findRandomPokemon
+  template("Who's that pokemon?")
+}

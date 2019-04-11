@@ -1,0 +1,13 @@
+result-view  {
+  match: Pokemon  (this){
+    from-output: findPokemonTypeByName
+  }
+  render  {
+
+    layout-macro (findPokemonTypeByNameMacro){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}

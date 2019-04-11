@@ -1,0 +1,5 @@
+train (t-4s6xmnl8s7ecn0x2pavv2crj3) {
+  utterance ("[g:findPokemonTypeByName] What type is (swalot)[v:Pokemon_name]?")
+  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)
+  last-modified (1554999010082)
+}

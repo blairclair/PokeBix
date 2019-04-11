@@ -1,13 +1,20 @@
 endpoints {
   action-endpoints {
     action-endpoint (findPokemonByName) {
-      authorization (User)
+      // authorization (User)
       accepted-inputs (Pokemon_name)
       local-endpoint (findPokemonByName.js)
     }
     action-endpoint (findPokemonByID) {
       accepted-inputs (Pokemon_id)
       local-endpoint (findPokemonByID.js)
+    }
+    action-endpoint (findRandomPokemon) {
+      local-endpoint (findRandomPokemon.js)
+    }
+    action-endpoint (findPokemonTypeByName) {
+      accepted-inputs (Pokemon_name)
+      local-endpoint (findPokemonByName.js)
     }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

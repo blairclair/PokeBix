@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: findPokemonByName(this)
+  template("Who's that pokemon?")
+}
