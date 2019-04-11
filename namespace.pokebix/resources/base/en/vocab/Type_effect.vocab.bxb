@@ -1,0 +1,8 @@
+vocab (Type_effect) {
+  "double damage to" {"double damage to" "super effective against" "good against"}
+  "double damage from" {"double damage from" "weak against"}
+  "half damage to" {"half damage to" "not very effective against"}
+  "half damage from" {"half damage from" "partially resistant to"}
+  "no damage to" {"no damage to" "no effect against" "bad against"}
+  "no damage from" {"no damage from" "fully resistant to"}
+}

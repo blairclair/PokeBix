@@ -1,0 +1,3 @@
+text (PokemonType_url) {
+  description (The url of the info for type)
+}

@@ -1,5 +1,0 @@
-train (t-cgezo5repatdh45kzpf9pb2lj) {
-  utterance ("[g:findPokemonTypeByName] What type is (pikachu)[v:Pokemon_name]?")
-  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)
-  last-modified (1554998744060)
-}

@@ -1,0 +1,11 @@
+action (findTypeByName) {
+  description (Finds different type relations of a pokemon)
+  type (Search)
+  collect {
+    input (Type_name) {
+      type (Type_name)
+      min (Required) max (One)
+    }
+  }
+  output (Type)
+}

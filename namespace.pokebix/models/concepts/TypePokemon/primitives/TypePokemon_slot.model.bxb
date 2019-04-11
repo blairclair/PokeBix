@@ -1,0 +1,3 @@
+integer (TypePokemon_slot) {
+  description (The order the Pokemon's types are listed in)
+}

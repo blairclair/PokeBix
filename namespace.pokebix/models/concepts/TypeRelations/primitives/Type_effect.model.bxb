@@ -1,0 +1,9 @@
+enum (Type_effect) {
+  description (The effect of the type against another.)
+  symbol (double damage to)
+  symbol (double damage from)
+  symbol (half damage to)
+  symbol (half damage from)
+  symbol (no damage to)
+  symbol (no damage from)
+}

@@ -1,0 +1,12 @@
+structure (Name) {
+  description (The name and language of a pokemon)
+  property (name) {
+    type (Name_name)
+    min (Required) max (One)
+  }
+  property (language) {
+    description (The language the name is in.)
+    type (NamedAPIResourceLanguage)
+    min (Required) max (One)
+  }
+}

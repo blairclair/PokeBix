@@ -1,0 +1,11 @@
+structure (PokemonTypeNamedAPIResource) {
+  description (The pokemon type)
+  property (name) {
+    type (PokemonType_name)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (PokemonType_url)
+    min (Optional) max (One)
+  }
+}

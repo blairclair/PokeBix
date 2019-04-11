@@ -1,0 +1,5 @@
+train (t-d7ckolsisiec7y9iyotwp02aj) {
+  utterance ("[g:findPokemonByName] Show me the Pokemon (ditto)[v:Pokemon_name]")
+  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMKljk0jLzUqDyTpV+ibmpDPK4TYjPAylgYmAEYgYgycgAAlA+AA==)
+  last-modified (1555005260714)
+}

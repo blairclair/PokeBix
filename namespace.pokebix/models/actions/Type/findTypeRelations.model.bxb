@@ -1,0 +1,15 @@
+action (findTypeRelations) {
+  type (Search)
+  description (Returns Type Relations of a given type)
+  collect {
+    input (Type) {
+      type (Type)
+      min (Required) max (One)
+    }
+    input (Type_effect) {
+      type (Type_effect)
+      min (Optional) max (One)
+    }
+  }
+  output (Type_name)
+}

@@ -1,0 +1,5 @@
+train (t-c43cmizw278rvbho02rtgx006) {
+  utterance ("[g:findTypeRelations] What is (flying)[v:Type_name] (super effective against)[v:Type_effect:'double damage to']?")
+  plan (Y2BjUCjISaxML8ovzUvRK8jPTk3KrNALqSxIDUrNSSzJzM8rZlDBoiItMy8FVZU4DnMY5HBIxKempaUmlzAo4jHeqdIvMTeVQQaXEXkgWVYGRgYmBmYGFiCLAcgG8ViAJAOYBwLMQJoZJAsA)
+  last-modified (1555014373782)
+}

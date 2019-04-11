@@ -1,0 +1,11 @@
+structure (TypePokemon) {
+  description (Types of pokemon)
+  property (slot) {
+    type (TypePokemon_slot)
+    min (Optional) max (One)
+  }
+  property (pokemon) {
+    type (NamedAPIResourcePokemon)
+    min (Optional) max (One)
+  }
+}

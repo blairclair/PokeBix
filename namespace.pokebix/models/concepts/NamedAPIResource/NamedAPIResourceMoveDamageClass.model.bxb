@@ -1,4 +1,4 @@
-structure (NamedAPIResourceLanguage) {
+structure (NamedAPIResourceMoveDamageClass) {
   description (A named API Resource)
   property (name) {
     type (NamedAPIResource_name)
