@@ -1,10 +1,10 @@
 structure (NamedAPIResource) {
   description (A named API Resource)
-  property (NamedAPIResource_name) {
+  property (name) {
     type (NamedAPIResource_name)
     min (Optional) max (One)
   }
-  property (NamedAPIResource_url) {
+  property (url) {
     type (NamedAPIResource_url)
     min (Required) max (One)
   }
