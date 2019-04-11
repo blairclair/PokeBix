@@ -2,7 +2,7 @@ endpoints {
   action-endpoints {
     action-endpoint (findPokemonByName) {
       accepted-inputs (Pokemon_name)
-      local-endpoint (findPokemonbyName.js)
+      local-endpoint (findPokemonByName.js)
     }
     action-endpoint (findPokemonByID) {
       accepted-inputs (Pokemon_id)

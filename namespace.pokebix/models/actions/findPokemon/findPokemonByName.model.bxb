@@ -7,5 +7,24 @@ action (findPokemonByName) {
       min (Required) max (One)
     }
   }
-  output (Pokemon)
+  output (Pokemon){
+   throws {
+    error (Error1) {
+      on-catch {
+        halt {
+          dialog { 
+            template ("Not a real Pokemon")
+          }
+        }
+      }
+    }
+      unknown-error  {
+        on-catch  {
+          halt  {
+            dialog  { template ("Not a real pokemon") }
+          }
+        }
+      }  
+  }
+  }
 }
