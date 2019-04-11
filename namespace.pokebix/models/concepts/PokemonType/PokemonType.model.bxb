@@ -6,6 +6,6 @@ structure (PokemonType) {
   }
   property (type) {
     type (NamedAPIResourceType)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
 }

@@ -1,0 +1,34 @@
+layout-macro-def(findPokemonDetailsMacro) {
+  params {
+    param (Pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      title {
+        template ("WHOS THAT POKEMON?")
+      }
+      content {
+        image {
+          url ("#{value(Pokemon.sprites.front_default)}")
+        }
+        paragraph {
+          value ("It's #{value(Pokemon.name)}!")
+          style (Detail_M)
+        }
+        paragraph {
+          value ("type: #{value(Pokemon.types.type.name)}")
+          style (Detail_M)
+        }
+        paragraph  {
+          value  ("weight: #{value(Pokemon.weight)}")
+          style  (Detail_M)
+        }
+      }
+    }
+  }
+}

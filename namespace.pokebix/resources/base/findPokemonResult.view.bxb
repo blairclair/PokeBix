@@ -1,0 +1,12 @@
+result-view  {
+  match  {
+    Pokemon  (this)
+  }
+  render  {
+    layout-macro (findPokemonDetailsMacro){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}
