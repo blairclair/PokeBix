@@ -1,0 +1,27 @@
+structure (TypeRelations) {
+  description (Relations to damage)
+  property (double_damage_from) {
+    type (NamedAPIResourceTypeDoubleDamageFrom)
+    min (Optional) max (Many)
+  }
+  property (double_damage_to) {
+    type (NamedAPIResourceTypeDoubleDamageTo)
+    min (Optional) max (Many)
+  }
+  property (half_damage_from) {
+    type (NamedAPIResourceTypeHalfDamageFrom)
+    min (Optional) max (Many)
+  }
+  property (half_damage_to) {
+    type (NamedAPIResourceTypeHalfDamageTo)
+    min (Optional) max (Many)
+  }
+  property (no_damage_from) {
+    type (NamedAPIResourceTypeNoDamageFrom)
+    min (Optional) max (Many)
+  }
+  property (no_damage_to) {
+    type (NamedAPIResourceTypeNoDamageTo)
+    min (Optional) max (Many)
+  }
+}

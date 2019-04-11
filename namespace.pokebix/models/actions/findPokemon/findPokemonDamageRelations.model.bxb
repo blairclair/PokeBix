@@ -1,0 +1,15 @@
+action (findPokemonDamageRelations) {
+  description (Finds a pokemon's damage relations)
+  type (Calculation)
+  collect {
+    input (pokemon) {
+      type (Pokemon)
+      min (Optional) max (One)
+    }
+    input(damage_relation) {
+      type (PokemonType)
+      min (Optional) max (One)
+    }
+  }
+  output (__OUTPUT__)
+}
