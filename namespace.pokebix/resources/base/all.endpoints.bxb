@@ -1,6 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (findPokemonByName) {
+      authorization (User)
       accepted-inputs (Pokemon_name)
       local-endpoint (findPokemonByName.js)
     }

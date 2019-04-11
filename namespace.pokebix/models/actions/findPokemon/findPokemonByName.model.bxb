@@ -7,7 +7,7 @@ action (findPokemonByName) {
       min (Required) max (One)
     }
   }
-  output (Pokemon){
+  output (Pokemon) {
    throws {
     error (Error1) {
       on-catch {

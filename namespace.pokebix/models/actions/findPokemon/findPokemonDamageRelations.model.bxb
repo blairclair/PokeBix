@@ -11,5 +11,5 @@ action (findPokemonDamageRelations) {
       min (Optional) max (One)
     }
   }
-  output (__OUTPUT__)
+  output (TypeRelations)
 }
