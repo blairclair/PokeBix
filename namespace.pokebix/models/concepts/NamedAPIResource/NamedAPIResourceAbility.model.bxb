@@ -6,6 +6,6 @@ structure (NamedAPIResourceAbility) {
   }
   property (NamedAPIResource_url) {
     type (NamedAPIResource_url)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
 }

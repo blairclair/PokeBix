@@ -1,0 +1,10 @@
+structure (VersionGameIndex) {
+  property (game_index) {
+    type (VersionGameIndex_game_index)
+    min (Optional) max (One)
+  }
+  property (version) {
+    type (NamedAPIResourceVersion)
+    min (Optional) max (One)
+  }
+}

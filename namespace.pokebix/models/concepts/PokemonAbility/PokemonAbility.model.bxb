@@ -10,6 +10,6 @@ structure (PokemonAbility) {
   }
   property (ability) {
     type (NamedAPIResourceAbility)
-    min (Required) max (One)
+    min () max (One)
   }
 }

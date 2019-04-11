@@ -1,0 +1,3 @@
+integer (VersionGameIndex_game_index) {
+  description (The internal id of an API resource within game data.)
+}
