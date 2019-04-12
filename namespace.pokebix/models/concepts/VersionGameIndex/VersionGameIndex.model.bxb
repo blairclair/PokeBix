@@ -7,4 +7,8 @@ structure (VersionGameIndex) {
     type (NamedAPIResourceVersion)
     min (Optional) max (One)
   }
+  property (generation) {
+    type (NamedAPIResourceGeneration)
+    min (Optional) max (One)
+  }
 }

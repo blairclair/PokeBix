@@ -8,28 +8,32 @@ structure (Type) {
     type (VersionGameIndex)
     min (Required) max (Many)
   }
-  // property (generation) {
-  //   type (NamedAPIResourceGeneration)
-  //   min (Required) max (Many)
-  // }
+  property (generation) {
+    type (NamedAPIResourceGeneration)
+    min (Required) max (Many)
+  }
   property (id) {
     type (Type_id)
     min (Required) max (One)
   }
-  // property (move_damage_class) {
-  //   type (NamedAPIResourceMoveDamageClass)
-  //   min (Required) max (One)
-  // }
-  // property (names) {
-  //   type (Name)
-  //   min (Required) max (Many)
-  // }
-  // property (pokemon) {
-  //   type (TypePokemon)
-  //   min (Required) max (Many)
-  // }
+  property (move_damage_class) {
+    type (NamedAPIResourceMoveDamageClass)
+    min (Required) max (One)
+  }
+  property (names) {
+    type (Name)
+    min (Required) max (Many)
+  }
+  property (pokemon) {
+    type (TypePokemon)
+    min (Required) max (Many)
+  }
   property (moves) {
     type (NamedAPIResourceMove)
     min (Required) max (Many)
+  }
+  property (name) {
+    type (Type_name)
+    min (Required) max (One)
   }
 }
