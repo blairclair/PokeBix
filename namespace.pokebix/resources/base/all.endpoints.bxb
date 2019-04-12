@@ -16,6 +16,10 @@ endpoints {
       accepted-inputs (Pokemon_name)
       local-endpoint (findPokemonByName.js)
     }
+    action-endpoint (findPokemonSpecies) {
+      accepted-inputs (PokemonSpecies)
+      local-endpoint (findPokemonSpecies.js)
+    }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {

@@ -12,5 +12,4 @@ action (findTypeRelations) {
     }
   }
   output (Type_name)
-  
 }

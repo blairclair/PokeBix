@@ -68,7 +68,7 @@ structure (Pokemon) {
     type (Pokemon_weight)
     min (Optional) max (One)
   }
-  property (extra) {
+  property (PokemonSpecies) {
     type (PokemonSpecies)
     min (Optional) max (One)
   }
