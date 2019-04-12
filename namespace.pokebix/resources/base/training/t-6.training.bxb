@@ -1,0 +1,5 @@
+train (t-6ledo7048q4xw6fh1c4q95qvz) {
+  utterance ([g:andWhatColor:continue:findPokemonSpecies,r:findPokemonSpecies] and what is its color?)
+  plan (Y2BhUCjISaxML8ovzUvRK8jPTk3KrNALANK5+Xnxyfk5+UUM8lhUJOalhGckljiDFUjhNoJBFYtcWmZeClQ+uCA1OTO1mIGZgZGBCUgygGlGMM0AZgHFAA==)
+  last-modified (1555041393240)
+}

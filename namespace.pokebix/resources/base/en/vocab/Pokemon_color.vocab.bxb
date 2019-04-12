@@ -1,0 +1,7 @@
+vocab (Pokemon_color) {
+  "green"
+  "blue"
+  "black"
+  "white"
+  "purple"
+}

@@ -1,11 +1,11 @@
-action (findPokemonSpecies) {
+action (andWhatColor) {
   type (Search)
-  description (finds the pokemon species)
+  description (What color is the pokemon?)
   collect {
     input (Pokemon) {
       type (Pokemon)
       min (Required) max (One)
     }
   }
-  output (Pokemon)
+  output (Pokemon_color)
 }

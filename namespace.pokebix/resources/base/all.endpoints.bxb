@@ -12,32 +12,22 @@ endpoints {
     action-endpoint (findRandomPokemon) {
       local-endpoint (findRandomPokemon.js)
     }
-    action-endpoint (findPokemonTypeByName) {
-      accepted-inputs (Pokemon_name)
-      local-endpoint (findTypeByName.js)
-    }
-    action-endpoint (findTypeByName) {
-      accepted-inputs (Type_name)
-      local-endpoint (findTypeByName.js)
-    }
-<<<<<<< HEAD
-    action-endpoint (findTypeByName) {
-      accepted-inputs (Type_name)
-      local-endpoint (findTypeByName.js)
-    }
     action-endpoint (findTypeRelations) {
       accepted-inputs (Type, Type_effect)
       local-endpoint (findTypeRelations.js)
-=======
+    }
     action-endpoint (findPokemonSpecies) {
       accepted-inputs (Pokemon)
       local-endpoint (findPokemonSpecies.js)
     }
-    action-endpoint (findTypeRelations) {
-      accepted-inputs (Type)
-      local-endpoint (findPokemonSpecies.js)
->>>>>>> 4b4268596fe02bbd61f3633241629d19e79217e1
+    action-endpoint (andWhatColor) {
+      accepted-inputs (Pokemon)
+      local-endpoint (andWhatColor.js)
     }
+    // action-endpoint (findPokemonTypeByName) {
+    //   accepted-inputs (Pokemon_name)
+    //   local-endpoint (findPokemonTypeByName.js)
+    // }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {
