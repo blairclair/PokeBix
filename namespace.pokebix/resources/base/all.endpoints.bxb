@@ -14,10 +14,18 @@ endpoints {
     }
     action-endpoint (findPokemonTypeByName) {
       accepted-inputs (Pokemon_name)
-      local-endpoint (findPokemonByName.js)
+      local-endpoint (findTypeByName.js)
+    }
+    action-endpoint (findTypeByName) {
+      accepted-inputs (Type_name)
+      local-endpoint (findTypeByName.js)
     }
     action-endpoint (findPokemonSpecies) {
-      accepted-inputs (PokemonSpecies)
+      accepted-inputs (Pokemon)
+      local-endpoint (findPokemonSpecies.js)
+    }
+    action-endpoint (findTypeRelations) {
+      accepted-inputs (Type)
       local-endpoint (findPokemonSpecies.js)
     }
     // action-endpoint (__ACTION_NAME__) {

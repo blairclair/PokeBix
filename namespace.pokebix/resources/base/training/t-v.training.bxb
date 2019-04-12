@@ -1,3 +1,8 @@
+train (t-v80wak1jk44jtopj26hye8d79) {
+  utterance ("[g:findPokemonSpecies] Show Pokemon number (35)[v:Pokemon_id]")
+  plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMJvhFOlpwuDLG798ZkpDCwMjAxMDMxAmgHKYgSzQIAJSAPFAQ==)
+  last-modified (1555029565428)
+}
 train (t-vv92teuvl7arvsn6axqj1278o) {
   utterance ("[g:findPokemonByID] What pokemon has the id of (132)[v:Pokemon_id]?")
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)

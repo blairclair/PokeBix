@@ -1,5 +1,5 @@
 train (t-d7ckolsisiec7y9iyotwp02aj) {
-  utterance ("[g:findPokemonByName] Show me the Pokemon (ditto)[v:Pokemon_name]")
-  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMKljk0jLzUqDyTpV+ibmpDPK4TYjPAylgYmAEYgYgycgAAlA+AA==)
-  last-modified (1555005260714)
+  utterance ("[g:findPokemonSpecies] Show me the Pokemon (ditto)[v:Pokemon_name]")
+  plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)
+  last-modified (1555028441795)
 }
