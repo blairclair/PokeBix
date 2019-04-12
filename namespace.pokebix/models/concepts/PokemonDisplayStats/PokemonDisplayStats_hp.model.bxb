@@ -1,0 +1,3 @@
+integer (PokemonDisplayStats_hp) {
+  description (__DESCRIPTION__)
+}

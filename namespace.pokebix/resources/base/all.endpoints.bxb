@@ -24,10 +24,22 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (andWhatColor.js)
     }
-    // action-endpoint (findPokemonTypeByName) {
-    //   accepted-inputs (Pokemon_name)
-    //   local-endpoint (findPokemonTypeByName.js)
-    // }
+    action-endpoint (findPokemonTypeByName) {
+      accepted-inputs (Pokemon_name)
+      local-endpoint (findPokemonByName.js)
+    }
+    action-endpoint (findPokemonLevelForMove) {
+      accepted-inputs (Pokemon, Pokemon_move)
+      local-endpoint (findPokemonLevelForMove.js)
+    }
+    action-endpoint (findTypeByName) {
+      accepted-inputs (Type_name)
+      local-endpoint (findTypeByName.js)
+    }
+    action-endpoint (findPokemonStats) {
+      accepted-inputs (Pokemon)
+      local-endpoint (findPokemonStat.js)
+    }
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {

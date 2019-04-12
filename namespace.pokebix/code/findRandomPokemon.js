@@ -13,6 +13,6 @@ module.exports.function = function findRandomPokemon () {
     }
     i++;
   }
-  pokemon.extra = species
+  pokemon.PokemonSpecies = species
   return pokemon;
 }

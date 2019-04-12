@@ -8,7 +8,7 @@ module.exports.function = function findPokemonSpecies (Pokemon) {
   Pokemon.PokemonSpecies = species
   var flavor = species.flavor_text_entries
   for (var i in flavor){
-    if (flavor[i].language.name == "en" && flavor[i].version.name == "red"){
+    if (flavor[i].language.name == "en"){
       Pokemon.flavor_text = flavor[i].flavor_text
     }
     i++;

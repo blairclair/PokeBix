@@ -1,0 +1,12 @@
+result-view  {
+  match: Pokemon  (this){
+    from-output: findPokemonStats
+  }
+  render  {
+    layout-macro (findPokemonStatsLayoutMacro){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}

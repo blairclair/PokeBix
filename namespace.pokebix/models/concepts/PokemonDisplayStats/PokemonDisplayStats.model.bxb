@@ -1,0 +1,7 @@
+structure (PokemonDisplayStats) {
+  description (__DESCRIPTION__)
+  property (display_hp) {
+    type (PokemonDisplayStats_hp)
+    min (Optional) max (One)
+  }
+}

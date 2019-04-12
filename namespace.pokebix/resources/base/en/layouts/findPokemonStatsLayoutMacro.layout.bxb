@@ -1,0 +1,21 @@
+layout-macro-def(findPokemonStatsLayoutMacro) {
+  params {
+    param (Pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        paragraph{
+          value("hi")
+          style(Detail_L)
+        }
+         
+      }
+    }
+  }
+}

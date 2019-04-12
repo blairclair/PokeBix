@@ -1,0 +1,15 @@
+action (findPokemonLevelForMove) {
+  type (Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (Pokemon) {
+      type (Pokemon)
+      min (Required) max (One)
+    }
+    input (Pokemon_move) {
+      type (PokemonMove_move)
+      min (Required) max (One)
+    }
+  }
+  output (PokemonMoveVersion_level_learned_at)
+}

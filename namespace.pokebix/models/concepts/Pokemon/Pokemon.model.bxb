@@ -1,7 +1,7 @@
 structure (Pokemon) {
   property (abilities) {
     type (PokemonAbility)
-    min (Optional) max (Many)
+    min (Required) max (Many)
   }
   property (base_experience) {
     type (Pokemon_base_experience)
@@ -53,7 +53,7 @@ structure (Pokemon) {
   }
   property (sprites) {
     type (PokemonSprites)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (stats) {
     type (PokemonStat)
@@ -74,6 +74,10 @@ structure (Pokemon) {
   }
   property (flavor_text){
     type (Pokemon_flavor_text)
+    min (Optional) max (One)
+  }
+  property (display_stats){
+    type (PokemonDisplayStats)
     min (Optional) max (One)
   }
 }

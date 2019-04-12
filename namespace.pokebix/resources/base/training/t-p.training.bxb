@@ -1,0 +1,5 @@
+train (t-pxcg7jg9nqo7hjeokiw7hxp3n) {
+  utterance ("[g:findPokemonLevelForMove:continue:findPokemonSpecies,r:findPokemonSpecies] and what level does it learn (leer)[v:PokemonMove_move]?")
+  plan (Y2BjMCvISaxML8ovzUvRK8jPTk3KrNALANK5+Xm++WWpYalFxZn5efE5qWWpOUAysSgvNSU+sYRBC4u+tMy8FKheH5B6t/wikBkMUrjtYFDGb398LsgAVfyWBRekJmemFuO1h5WBkYGJgZmBBchiALJBPBYgyQDmgQAzkAbJMwAA)
+  last-modified (1555090742907)
+}

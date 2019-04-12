@@ -2,7 +2,7 @@ structure (PokemonSprites) {
   description (The images that represent the pokemon)
   property (front_default) {
     type (PokemonSprites_front_default)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (front_shiny) {
     type (PokemonSprites_front_shiny)

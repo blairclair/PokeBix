@@ -2,7 +2,7 @@ structure (NamedAPIResourceType) {
   description (A named API Resource)
   property (name) {
     type (NamedAPIResource_name)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (url) {
     type (NamedAPIResource_url)
