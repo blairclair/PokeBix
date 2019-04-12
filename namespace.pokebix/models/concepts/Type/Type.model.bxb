@@ -32,4 +32,8 @@ structure (Type) {
     type (NamedAPIResourceMove)
     min (Required) max (Many)
   }
+  property (name) {
+    type (Type_name)
+    min (Required) max (One)
+  }
 }

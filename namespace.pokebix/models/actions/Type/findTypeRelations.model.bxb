@@ -8,7 +8,7 @@ action (findTypeRelations) {
     }
     input (Type_effect) {
       type (Type_effect)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   output (Type_name)

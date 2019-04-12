@@ -48,5 +48,6 @@ module.exports.function = function findTypeRelations(Type, Type_effect) {
           count++
         }
     }
-    return (names)
+  return "Flying"
+    // return (names)
 }
