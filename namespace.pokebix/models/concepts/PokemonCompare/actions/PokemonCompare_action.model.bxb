@@ -15,5 +15,5 @@ action (PokemonCompare_action) {
       min (Required) max (One)
     }
   }
-  output (Pokemon)
+  output (PokemonCompare)
 }

@@ -1,6 +1,9 @@
 structure (PokemonCompare) {
   description (The thing used to compare)
-  
+  property (PokemonCompare_cmp) {
+    type (PokemonCompare_cmp)
+    min (Optional) max (One)
+  }
   property (PokemonReturn) {
     type (Pokemon)
     min (Optional) max (Many)
