@@ -1,0 +1,3 @@
+structure (PokemonCompareSecond) {
+  role-of (Pokemon)
+}
