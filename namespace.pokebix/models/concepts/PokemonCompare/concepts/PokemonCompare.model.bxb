@@ -1,0 +1,20 @@
+structure (PokemonCompare) {
+  description (The thing used to compare)
+  
+  property (PokemonReturn) {
+    type (Pokemon)
+    min (Optional) max (Many)
+  }
+  property (PokemonCompare_height) {
+    type (PokemonCompare_height)
+    min (Optional) max (One)
+  }
+  property (PokemonCompare_weight) {
+    type (PokemonCompare_weight)
+    min (Optional) max (One)
+  }
+  property (PokemonCompare_result) {
+    type (PokemonCompare_result)
+    min (Optional) max (One)
+  }
+}

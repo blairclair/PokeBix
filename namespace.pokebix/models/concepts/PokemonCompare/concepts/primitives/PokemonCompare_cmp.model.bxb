@@ -1,0 +1,6 @@
+enum (PokemonCompare_cmp) {
+  description (The different types of comparisons)
+  symbol (PokemonCompare_greater_than)
+  symbol (PokemonCompare_less_than)
+  symbol (PokemonCompare_equal_to)
+}

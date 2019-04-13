@@ -1,0 +1,3 @@
+integer (PokemonCompare_height) {
+  description (used to compare Pokemon height)
+}

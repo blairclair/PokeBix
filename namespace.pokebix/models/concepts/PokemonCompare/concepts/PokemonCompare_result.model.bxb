@@ -1,0 +1,7 @@
+structure (PokemonCompare_result) {
+  description (__DESCRIPTION__)
+  property (Pokemon) {
+    type (Pokemon)
+    min (Optional) max (One)
+  }
+}
