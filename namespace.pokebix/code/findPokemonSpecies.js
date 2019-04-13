@@ -17,8 +17,5 @@ module.exports.function = function findPokemonSpecies (Pokemon) {
     }
     i++;
   }
-   Pokemon.image_set = [
-     {url: "/images/Pokedex.gif"}
-   ]
   return Pokemon
 }

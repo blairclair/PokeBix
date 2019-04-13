@@ -14,5 +14,8 @@ module.exports.function = function findRandomPokemon () {
     i++;
   }
   pokemon.PokemonSpecies = species
+    pokemon.image_set = [
+     {url: "/images/Pokedex.gif"}
+   ]
   return pokemon;
 }
