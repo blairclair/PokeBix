@@ -1,0 +1,5 @@
+train (t-foxtse3f4disv8470ivugve3t) {
+  utterance ("[g:findTypeRelations] what is (ground)[v:Type_name] (weak to)[v:Type_effect:'double damage from']")
+  plan (Y2BjkCnISaxML8ovzUvRK8jPTk3KrNALqSxIjc9LzE1lUMEim5aZlwJSEZSak1iSmZ9XzCCOwwwGOVyGp6alpSaXMCjiMd6p0g/kAvzuY2VgZGBiYGZgAbIYgGwQjwVIMoB5IMAMpJlBsgA=)
+  last-modified (1555114337117)
+}
