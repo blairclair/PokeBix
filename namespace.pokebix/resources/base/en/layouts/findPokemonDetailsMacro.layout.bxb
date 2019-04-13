@@ -27,12 +27,12 @@ layout-macro-def(findPokemonDetailsMacro) {
             }
             slot2{
               paragraph{
-                value("id: #{value(Pokemon.id)}\ntype: #{value(Pokemon.types.type.name)}\nabilities: #{value(Pokemon.abilities.ability.name)}")
+                value("id: #{value(Pokemon.id)}\nweight: #{value(Pokemon.weight)}\ntype: #{value(Pokemon.types.type.name)}\nabilities: #{value(Pokemon.abilities.ability.name)}")
               }
             }
             slot3{
               paragraph{
-                value("#{value(Pokemon.flavor_text)}  \n \n \n \n \n.") 
+                value("#{value(Pokemon.flavor_text)}  \n \n \n \n \n \n.") 
                 style(Detail_M)
               }
             }
