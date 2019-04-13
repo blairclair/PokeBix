@@ -1,0 +1,3 @@
+structure (ImageHandler_image_set) {
+  extends (viv.core.BaseImage )
+}

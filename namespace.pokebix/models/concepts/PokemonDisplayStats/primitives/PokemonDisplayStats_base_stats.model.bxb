@@ -1,0 +1,6 @@
+enum (PokemonDisplayStats_base_stats) {
+  description (__DESCRIPTION__)
+  symbol (base_hp)
+  symbol (base_attack)
+  symbol (base_defense)
+}

@@ -80,5 +80,9 @@ structure (Pokemon) {
     type (PokemonDisplayStats)
     min (Optional) max (One)
   }
+  property (image_set){
+    type (ImageHandler_image_set)
+    min (Optional) max (Many)
+  }
 }
 

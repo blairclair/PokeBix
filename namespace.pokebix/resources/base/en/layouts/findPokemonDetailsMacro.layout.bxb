@@ -6,35 +6,71 @@ layout-macro-def(findPokemonDetailsMacro) {
       max (One)
     }
   }
-
-  content {
-    section {  // this macro returns a "section"
-      content {
-        image {
+  content{
+    section{
+      content{
+        image{
           url ("#{value(Pokemon.sprites.front_default)}")
+          aspect-ratio(21:9)
         }
-        paragraph {
-          value ("It's #{value(Pokemon.name)}!")
-          style (Detail_M)
+        image-card{
+          aspect-ratio(1:1)
+          // image-object-fit (Contain)
+          title-area{
+            
+            halign (Center)
+            slot1{
+              text{
+                value ("Name: #{value(Pokemon.name)}")
+                style(Title_S)
+              }
+            }
+            slot2{
+              paragraph{
+                value("id: #{value(Pokemon.id)}\ntype: #{value(Pokemon.types.type.name)}\nabilities: #{value(Pokemon.abilities.ability.name)}")
+              }
+            }
+            slot3{
+              paragraph{
+                value("#{value(Pokemon.flavor_text)}  \n \n \n \n \n.") 
+                style(Detail_M)
+              }
+            }
+          } 
+          image-url ("[#{value(Pokemon.image_set[0].url)}]")
         }
-        paragraph  {
-          value("id: #{value(Pokemon.id)}")
-        }
-        paragraph {
-          value ("type: #{value(Pokemon.types.type.name)}")
-          style (Detail_M)
-        }
-        paragraph  {
-          value  ("weight: #{value(Pokemon.weight)}")
-          style  (Detail_M)
-        }
-        paragraph  {
-          value  ("abilities: #{value(Pokemon.abilities.ability.name)}")
-        }
-        paragraph{
-          value ("cool fact: #{value(Pokemon.flavor_text)}")
-        }
+       
       }
     }
   }
+  // content {
+  //   section {  // this macro returns a "section"
+  //     content {
+  //       image {
+  //         url ("#{value(Pokemon.sprites.front_default)}")
+  //       }
+  //       paragraph {
+  //         value ("It's #{value(Pokemon.name)}!")
+  //         style (Detail_M)
+  //       }
+  //       paragraph  {
+  //         value("id: #{value(Pokemon.id)}")
+  //       }
+  //       paragraph {
+  //         value ("type: #{value(Pokemon.types.type.name)}")
+  //         style (Detail_M)
+  //       }
+  //       paragraph  {
+  //         value  ("weight: #{value(Pokemon.weight)}")
+  //         style  (Detail_M)
+  //       }
+  //       paragraph  {
+  //         value  ("abilities: #{value(Pokemon.abilities.ability.name)}")
+  //       }
+  //       paragraph{
+  //         value ("cool fact: #{value(Pokemon.flavor_text)}")
+  //       }
+  //     }
+  //   }
+  // }
 }
