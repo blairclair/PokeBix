@@ -41,7 +41,7 @@ endpoints {
       local-endpoint (findPokemonStat.js)
     }
     action-endpoint (PokemonCompare_action) {
-      accepted-inputs (PokemonCompareFirst, PokemonCompareSecond, PokemonCompare)
+      accepted-inputs (PokemonCompareFirst, PokemonCompareSecond)
       local-endpoint (PokemonCompare_action.js)
     }
     // action-endpoint (__ACTION_NAME__) {

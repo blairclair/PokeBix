@@ -1,0 +1,23 @@
+layout-macro-def(PokemonCompareLayoutMacro) {
+  params {
+    param (Pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+         image {
+          url ("#{value(Pokemon.sprites.front_default)}")
+        }
+        paragraph {
+          value ("#{value(Pokemon.name)} has a weight of #{value(Pokemon.weight)}")
+          style (Detail_M)
+        }
+      }
+    }
+  }
+}
