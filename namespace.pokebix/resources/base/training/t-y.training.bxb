@@ -4,9 +4,9 @@ train (t-ydbzln0dsr8ih5zms31i8veu3) {
   last-modified (1555199902447)
 }
 train (t-yhmuupk8s6do1s6wq2a1rlwfx) {
-  utterance ("[g:findPokemonSpecies] What pokemon does {[g:findPokemonSpecies] (blastoise)[v:Pokemon_name]} (evolve from)[r:pokemonEvolvesFrom]?")
+  utterance ("[g:findPokemonSpecies,r:pokemonEvolvesFrom] What pokemon does {[g:findPokemonSpecies] (blastoise)[v:Pokemon_name]} evolve from?")
   plan (Y+BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKsLmkAKLAtSw/pyy12K0oP3eIeIaLgZGBiYGZgYWBlYGNgZ2Bg4ETKMaARZQRLIqKGYAqGIFq2MHmsAEA)
-  last-modified (1555204063954)
+  last-modified (1555208786965)
 }
 train (t-yiun53ci179bx2oxhpiinepa4) {
   utterance ([g:findRandomPokemon] find me a random pokemon)

@@ -1,7 +1,7 @@
 train (t-pfnl2svep101wjfpvh0i5s711) {
-  utterance ("[g:findPokemonSpecies] What does {[g:Pokemon] (pikachu)[v:Pokemon_name]} (evolve into)[r:pokemonEvolvesTo]?")
-  plan (Y+BkkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKlLEoKIAocC3LzylLLQ7Jp4c7OBgYGZgYmBlYGFgZ2BjYgXwGNBFGsAgCMwBlGMFyIL1sAA==)
-  last-modified (1555203749883)
+  utterance ("[g:findPokemonSpecies,r:pokemonEvolvesTo] What does {[g:findPokemonByName] (pikachu)[v:Pokemon_name]} evolve into?")
+  plan (Y+BkkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKlLEoKIAocC3LzylLLQ7Jp4c7OBgYGZgYmBlYGFgZ2BjYgXwGNBFGsAgCMwBlGIFy7GC9bAA=)
+  last-modified (1555208883780)
 }
 train (t-pxcg7jg9nqo7hjeokiw7hxp3n) {
   utterance ("[g:findPokemonLevelForMove:continue:findPokemonSpecies,r:findPokemonSpecies] and what level does it learn (leer)[v:PokemonMove_move]?")
