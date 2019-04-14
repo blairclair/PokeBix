@@ -1,0 +1,5 @@
+train (t-s67ogjwsgmvyq1ionc0uxp281) {
+  utterance ("[g:findPokemonSpecies,r:pokemonEvolvesFrom] What evolves to {[g:findPokemonSpecies] (blastoise)[v:Pokemon_name]}?")
+  plan (Y+BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKsLmkAKLAtSw/pyy12K0oP3eIeIaLgZGBiYGZgYWBlYGNgZ2Bg4ETKMaARZQRLIqKGYAqGIFq2MHmsAEA)
+  last-modified (1555209605135)
+}
