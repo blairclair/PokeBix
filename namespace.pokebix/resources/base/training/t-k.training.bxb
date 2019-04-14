@@ -1,3 +1,8 @@
+train (t-kma2wexkoduhjndkzaz59l5v6) {
+  utterance ("[g:findPokemonSpecies] What is the pokemon (ditto)[v:Pokemon_name]?")
+  plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)
+  last-modified (1555199528378)
+}
 train (t-ktlt6goa1sxc7blykh6t1iqna) {
   utterance ("[g:findPokemonSpecies] What pokemon is (ditto)[v:Pokemon_name]?")
   plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)

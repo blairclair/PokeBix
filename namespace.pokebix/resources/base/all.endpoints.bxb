@@ -44,6 +44,15 @@ endpoints {
       accepted-inputs (PokemonCompareFirst, PokemonCompareSecond)
       local-endpoint (PokemonCompare_action.js)
     }
+    action-endpoint (pokemonEvolvesTo) {
+      accepted-inputs (Pokemon)
+      local-endpoint (pokemonEvolvesTo.js)
+    }
+    action-endpoint (pokemonEvolvesFrom) {
+      accepted-inputs (Pokemon)
+      local-endpoint (pokemonEvolvesFrom.js)
+    }
+    
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
     //   remote-endpoint (__ENDPOINT_URL__) {

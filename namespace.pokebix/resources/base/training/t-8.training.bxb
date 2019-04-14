@@ -1,0 +1,10 @@
+train (t-8nhzj7mlxi03kkf6oiitfasno) {
+  utterance ([g:pokemon_height:continue:findPokemonSpecies,r:findPokemonSpecies] and how tall is it?)
+  plan (Y2BhUCzISaxML8ovzUvRK8jPTk3KrADTufl58RmpmekZJQxSWJQEQJQwqGKRS8vMS4HKBxekJmemFuM1gpmBkYEJSDKAaSYgCQJMEAwA)
+  last-modified (1555200232070)
+}
+train (t-8yfhme952peo2wtrgzmgkt93f) {
+  utterance ("[g:findPokemonSpecies] What pokemon is (Ditto)[v:Pokemon_name]?")
+  plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)
+  last-modified (1555199205468)
+}

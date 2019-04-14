@@ -71,6 +71,7 @@ structure (Pokemon) {
   property (PokemonSpecies) {
     type (PokemonSpecies)
     min (Optional) max (One)
+    lazy-source (findPokemonSpecies)
   }
   property (flavor_text){
     type (Pokemon_flavor_text)

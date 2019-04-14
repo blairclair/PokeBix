@@ -1,3 +1,8 @@
+train (t-v1ie3yxl8qdfx8zj2vh8l7b8r) {
+  utterance ("[g:findPokemonSpecies] What does {[g:findPokemonSpecies] (venusaur)[v:Pokemon_name]} (evolve from)[r:pokemonEvolvesFrom]?")
+  plan (Y+BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKsLmkAKLAtSw/pyy12K0oP3eIeIaLgZGBiYGZgYWBlYGNgZ2Bg4ETKMaARZQRLIqKGYAqGIFq2MHmsAEA)
+  last-modified (1555203987570)
+}
 train (t-v80wak1jk44jtopj26hye8d79) {
   utterance ("[g:findPokemonSpecies] Show Pokemon number (35)[v:Pokemon_id]")
   plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMJvhFOlpwuDLG798ZkpDCwMjAxMDMxAmgHKYgSzQIAJSAPFAQ==)

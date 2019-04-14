@@ -1,0 +1,11 @@
+action (pokemonEvolvesFrom) {
+  type (Search)
+  description (finds the next pokemon evolution)
+  collect {
+    input (Pokemon) {
+      type (Pokemon)
+      min (Required) max (One)
+    }
+  }
+  output (Pokemon_name)
+}
