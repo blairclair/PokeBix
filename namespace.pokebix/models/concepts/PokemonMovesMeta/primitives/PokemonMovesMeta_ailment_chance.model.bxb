@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_ailment_chance) {
+  description (__DESCRIPTION__)
+}

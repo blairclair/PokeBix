@@ -10,7 +10,7 @@ capsule {
   runtime-flags {
     support-halt-effect-in-computed-inputs
   }
-  id (playground.pokebix)
+  id (poketeam.pokebix)
   version (0.1.0)
   format (3)
   targets {

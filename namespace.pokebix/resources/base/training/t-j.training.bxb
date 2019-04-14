@@ -3,8 +3,3 @@ train (t-jjhwywbxhokqsb33pwf41xui0) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)
   last-modified (1555019591229)
 }
-train (t-jwj6pav7e61ql1z3cl9dx3jn6) {
-  utterance ([g:PokemonDisplayStats:continue:findPokemonSpecies,r:findPokemonSpecies] Now show me its stats)
-  plan (Y2BhUCvISaxML8ovzUvRK8jPTk3KrNALANK5+XkumcUgyeCSxJJiBinc6hhUscilZealQOWDC1KTM1PxG8HMwMjABCQZwDQTkAQBJggGAA==)
-  last-modified (1555100383550)
-}

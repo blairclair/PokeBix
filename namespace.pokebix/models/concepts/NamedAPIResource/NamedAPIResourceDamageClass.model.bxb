@@ -1,0 +1,11 @@
+structure (NamedAPIResourceDamageClass) {
+  description (__DESCRIPTION__)
+  property (name) {
+    type (NamedAPIResource_name)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (NamedAPIResource_url)
+    min (Required) max (One)
+  }
+}

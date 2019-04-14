@@ -7,5 +7,5 @@ action (andWhatColor) {
       min (Required) max (One)
     }
   }
-  output (Pokemon_color)
+  output (Pokemon)
 }

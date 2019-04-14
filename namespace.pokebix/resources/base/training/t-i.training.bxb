@@ -1,5 +1,5 @@
 train (t-i3geqmfgpkmb6ycog1bq03nh4) {
   utterance ("[g:PokemonCompare_action] Who weighs more {[g:PokemonCompareFirst] (golduck)[v:Pokemon_name]} or {[g:PokemonCompareSecond] (psyduck)[v:Pokemon_name]}?")
   plan (Y+BikCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGrjlnPNzCxKLUuMTk0sygSrVCKp0yywqLsFrmzpBM4JTk/PzUvAaooJFLi0zLwUq71Tpl5ibyiCP24T4PJACKhnDycDIwMTAzMDCwMrAxsDOwAEUYQCLMQLFmIFirEAxRqAYCxgzgmVBgBWsih0oxgmkmRhYAA==)
-  last-modified (1555204142861)
+  last-modified (1555213702049)
 }

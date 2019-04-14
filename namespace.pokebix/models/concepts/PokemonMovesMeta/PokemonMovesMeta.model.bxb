@@ -1,0 +1,51 @@
+structure (PokemonMovesMeta) {
+  description (__DESCRIPTION__)
+  property (ailment) {
+    type (NamedAPIResourceAilment)
+    min (Optional) max (One)
+  }
+  property (ailment_chance) {
+    type (PokemonMovesMeta_ailment_chance)
+    min (Optional) max (One)
+  }
+  property (category) {
+    type (NamedAPIResourceCategory)
+    min (Optional) max (One)
+  }
+  property (crit_rate) {
+    type (PokemonMovesMeta_crit_rate)
+    min (Optional) max (One)
+  }
+  property (drain) {
+    type (PokemonMovesMeta_drain)
+    min (Optional) max (One)
+  }
+  property (flinch_chance) {
+    type (PokemonMovesMeta_flinch_chance)
+    min (Optional) max (One)
+  }
+  property (healing) {
+    type (PokemonMovesMeta_healing)
+    min (Optional) max (One)
+  }
+  property (max_hits) {
+    type (PokemonMovesMeta_max_hits)
+    min (Optional) max (One)
+  }
+  property (max_turns) {
+    type (PokemonMovesMeta_max_turns)
+    min (Optional) max (One)
+  }
+  property (min_hits) {
+    type (PokemonMovesMeta_min_hits)
+    min (Optional) max (One)
+  }
+  property (min_turns) {
+    type (PokemonMovesMeta_min_turns)
+    min (Optional) max (One)
+  }
+  property (stat_chance) {
+    type (PokemonMovesMeta_stat_chance)
+    min (Optional) max (One)
+  }
+}

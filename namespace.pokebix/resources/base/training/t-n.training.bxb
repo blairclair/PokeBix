@@ -1,3 +1,8 @@
+train (t-n0hpgq85891wdk0p97ieakauu) {
+  utterance ([g:findPokemonStats:continue:findPokemonSpecies] And what are its stats?)
+  plan (Y2BikCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMyljk0jLzUqDywSWJJcUMjEDIAMVAEgA=)
+  last-modified (1555211133991)
+}
 train (t-n7mob227rcdazndns2mly4vus) {
   utterance ("[g:findPokemonTypeByName] What type is (bulbasaur)[v:Pokemon_name]?")
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)

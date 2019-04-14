@@ -1,0 +1,3 @@
+integer (PokemonDisplayStats_special_defense) {
+  description (__DESCRIPTION__)
+}

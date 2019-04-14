@@ -1,0 +1,11 @@
+structure (PokemonMovesStatChanges) {
+  description (__DESCRIPTION__)
+  property (change) {
+    type (PokemonMovesStatChanges_change)
+    min (Optional) max (One)
+  }
+  property (stat) {
+    type (NamedAPIResourceStat)
+    min (Optional) max (One)
+  }
+}

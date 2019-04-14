@@ -1,0 +1,88 @@
+layout-macro-def(ListSpritesLayout) {
+  params {
+    param (Pokemon) {
+      type (Pokemon)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        compound-card{
+          content{
+            image-card{
+              aspect-ratio(1:1)
+              image-url{
+                template ("#{value(Pokemon.sprites.back_default)}")
+              }
+              title-area{
+                halign (Center)
+                slot1{
+                  text{
+                    value("Back default")
+                  }
+                }
+              }
+            }
+          }
+        }
+        compound-card{
+          content{
+            image-card{
+              aspect-ratio(1:1)
+              image-url{
+                template ("#{value(Pokemon.sprites.front_default)}")
+              }
+              title-area{
+                halign (Center)
+                slot1{
+                  text{
+                    value("Front default")
+                  }
+                }
+              }
+            }
+          }
+        }
+         compound-card{
+          content{
+            image-card{
+              aspect-ratio(1:1)
+              image-url{
+                template ("#{value(Pokemon.sprites.back_shiny)}")
+              }
+              title-area{
+                halign (Center)
+                slot1{
+                  text{
+                    value("Back shiny")
+                  }
+                }
+              }
+            }
+          }
+        }
+         compound-card{
+          content{
+            image-card{
+              aspect-ratio(1:1)
+              image-url{
+                template ("#{value(Pokemon.sprites.front_shiny)}")
+              }
+              title-area{
+                halign (Center)
+                slot1{
+                  text{
+                    value("Front shiny")
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

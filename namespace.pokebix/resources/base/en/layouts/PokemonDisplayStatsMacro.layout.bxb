@@ -7,17 +7,41 @@ layout-macro-def(PokemonDisplayStatsMacro) {
     }
   }
 
-  content {
-    section {  // this macro returns a "section"
-      content {
-         image {
+     content{
+    section{
+      content{
+        image{
           url ("#{value(Pokemon.sprites.front_default)}")
+          aspect-ratio(21:9)
         }
-        paragraph {
-          value ("#{value(Pokemon.name)} is a #{value(Pokemon.types.type.name)} type")
-          style (Detail_M)
-        }
+        image-card{
+          aspect-ratio(1:1)
+          // image-object-fit (Contain)
+          title-area{
+            
+            halign (Center)
+            slot1{
+              text{
+                value ("#{value(Pokemon.name)} extra stats")
+                style(Title_M)
+              }
+            }
+            slot2{
+              paragraph{
+                value("hp: #{value(Pokemon.display_hp)}\nspeed: #{value(Pokemon.display_speed)}\nattack: #{value(Pokemon.display_attack)}\ndefense: #{value(Pokemon.display_defense)}")
+                style(Detail_L)
+              }
+            }
+            slot3{
+              paragraph{
+                value("special-defense: #{value(Pokemon.display_special_defense)}\nspecial-attack: #{value(Pokemon.display_special_attack)}\n \n \n \n \n \n.")
+                style(Detail_L)
+              }
+            }
+          } 
+          image-url ("[#{value(Pokemon.image_set[0].url)}]")
+        }  
       }
     }
-  }
+    }
 }

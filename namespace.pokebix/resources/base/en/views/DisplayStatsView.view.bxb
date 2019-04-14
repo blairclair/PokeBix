@@ -1,10 +1,10 @@
 result-view  {
   match: Pokemon  (this){
-    from-output: PokemonDisplayStats_action
+    from-output: findPokemonStats
   }
   render  {
 
-    layout-macro (findPokemonTypeByNameMacro){
+    layout-macro (PokemonDisplayStatsMacro){
       param  (Pokemon){
         expression (this)
       }

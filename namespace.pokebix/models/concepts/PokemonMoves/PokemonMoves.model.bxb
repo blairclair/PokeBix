@@ -1,0 +1,95 @@
+structure (PokemonMoves) {
+  description (__DESCRIPTION__)
+  property (accuracy) {
+    type (PokemonMoves_accuracy)
+    min (Optional) max (One)
+  }
+  property (contest_combos) {
+    type (PokemonMovesContestCombos)
+    min (Optional) max (One)
+  }
+  property (contest_effect) {
+    type (PokemonMovesContestEffect)
+    min (Optional) max (One)
+  }
+  property (contest_type) {
+    type (NamedAPIResourceContestType)
+    min (Optional) max (One)
+  }
+  property (damage_class) {
+    type (NamedAPIResourceDamageClass)
+    min (Optional) max (One)
+  }
+  property (effect_chance) {
+    type (PokemonMoves_effect_chance)
+    min (Optional) max (One)
+  }
+  property (effect_changes) {
+    type (PokemonMovesEffectChanges)
+    min (Optional) max (Many)
+  }
+  property (effect_entries) {
+    type (PokemonMovesEffectEntries)
+    min (Optional) max (Many)
+  }
+  property (flavor_text_entries) {
+    type (PokemonMovesFlavorTextEntries)
+    min (Optional) max (Many)
+  }
+  property (generation) {
+    type (NamedAPIResourceGeneration)
+    min (Optional) max (One)
+  }
+  property (id) {
+    type (PokemonMoves_id)
+    min (Optional) max (One)
+  }
+  property (machines) {
+    type (PokemonMovesMachines)
+    min (Optional) max (Many)
+  }
+  property (meta) {
+    type (PokemonMovesMeta)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (PokemonMoves_name)
+    min (Optional) max (One)
+  }
+  property (names) {
+    type (PokemonMovesNames)
+    min (Optional) max (Many)
+  }
+  property (past_values) {
+    type (PokemonMovesPastValues)
+    min (Optional) max (Many)
+  }
+  property (power) {
+    type (PokemonMoves_power)
+    min (Optional) max (One)
+  }
+  property (pp) {
+    type (PokemonMoves_pp)
+    min (Optional) max (One)
+  }
+  property (priority) {
+    type (PokemonMoves_priority)
+    min (Optional) max (One)
+  }
+  property (stat_changes) {
+    type (PokemonMovesStatChanges)
+    min (Optional) max (Many)
+  }
+  property (super_contest_effect) {
+    type (NamedAPIResource_url)
+    min (Optional) max (One)
+  }
+  property (target) {
+    type (NamedAPIResourceTarget)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (NamedAPIResourceType)
+    min (Optional) max (One)
+  }
+}

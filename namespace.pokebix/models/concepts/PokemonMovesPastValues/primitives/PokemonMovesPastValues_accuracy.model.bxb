@@ -1,0 +1,3 @@
+integer (PokemonMovesPastValues_accuracy) {
+  description (__DESCRIPTION__)
+}

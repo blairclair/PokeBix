@@ -56,6 +56,18 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (pokemonEvolvesFrom.js)
     }
+    action-endpoint (findPokemonMoves) {
+      accepted-inputs (Pokemon)
+      local-endpoint (findPokemonMoves.js)
+    }
+    action-endpoint (ShowMoveDetails) {
+      accepted-inputs (Pokemon_move)
+      local-endpoint (ShowMoveDetails.js)
+    }
+    action-endpoint (findPokemonSprites) {
+      accepted-inputs (Pokemon)
+      local-endpoint (findPokemonSprites.js)
+    }
     
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

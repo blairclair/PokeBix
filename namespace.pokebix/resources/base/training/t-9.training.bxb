@@ -1,0 +1,5 @@
+train (t-9q3xtq5geze4lzm59grrk2oc5) {
+  utterance ([g:findPokemonStats:continue:findPokemonSpecies] Now show me its stats)
+  plan (Y2BikCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMyljk0jLzUqDywSWJJcUMjEDIAMVAEgA=)
+  last-modified (1555250052632)
+}

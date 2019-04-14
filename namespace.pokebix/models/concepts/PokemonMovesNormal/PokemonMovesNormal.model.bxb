@@ -1,0 +1,11 @@
+structure (PokemonMovesNormal) {
+  description (__DESCRIPTION__)
+  property (use_before) {
+    type (NamedAPIResourceUseBefore)
+    min (Optional) max (Many)
+  }
+  property (use_after) {
+    type (NamedAPIResourceUseAfter)
+    min (Optional) max (Many)
+  }
+}

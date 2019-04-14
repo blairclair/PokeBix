@@ -1,0 +1,7 @@
+structure (PokemonMovesContestEffect) {
+  description (__DESCRIPTION__)
+  property (url) {
+    type (NamedAPIResource_url)
+    min (Optional) max (One)
+  }
+}

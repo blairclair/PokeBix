@@ -6,8 +6,7 @@ layout-macro-def(PokemonCompareLayoutMacro) {
       max (One)
     }
   }
-
-   content{
+ content{
     section{
       content{
         image{
@@ -22,13 +21,13 @@ layout-macro-def(PokemonCompareLayoutMacro) {
             halign (Center)
             slot1{
               text{
-                value ("Name: #{value(Pokemon.name)} extra stats")
+                value ("Name: #{value(Pokemon.name)}")
                 style(Title_S)
               }
             }
             slot2{
               paragraph{
-                value("hp: #{value(Pokemon.display_stats.display_hp)}")
+                value("id: #{value(Pokemon.id)}\nweight: #{value(Pokemon.weight)}\ntype: #{value(Pokemon.types.type.name)}\nabilities: #{value(Pokemon.abilities.ability.name)}")
               }
             }
             slot3{

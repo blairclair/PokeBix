@@ -1,0 +1,11 @@
+structure (PokemonMovesMachines) {
+  description (__DESCRIPTION__)
+  property (machine) {
+    type (NamedAPIResource_url)
+    min (Optional) max (One)
+  }
+  property (version_group) {
+    type (NamedAPIResourceVersionGroup)
+    min (Optional) max (One)
+  }
+}

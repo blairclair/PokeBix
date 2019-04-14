@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_max_hits) {
+  description (__DESCRIPTION__)
+}

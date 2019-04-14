@@ -77,12 +77,36 @@ structure (Pokemon) {
     type (Pokemon_flavor_text)
     min (Optional) max (One)
   }
-  property (display_stats){
-    type (PokemonDisplayStats)
-    min (Optional) max (One)
-  }
   property (image_set){
     type (ImageHandler_image_set)
+    min (Optional) max (Many)
+  }
+   property (display_speed) {
+    type (PokemonDisplayStats_speed)
+    min (Optional) max (One)
+  }
+  property (display_hp) {
+    type (PokemonDisplayStats_hp)
+    min (Optional) max (One)
+  }
+  property (display_attack) {
+    type (PokemonDisplayStats_attack)
+    min (Optional) max (One)
+  }
+  property (display_defense) {
+    type (PokemonDisplayStats_defense)
+    min (Optional) max (One)
+  }
+  property (display_special_attack) {
+    type (PokemonDisplayStats_special_attack)
+    min (Optional) max (One)
+  }
+  property (display_special_defense) {
+    type (PokemonDisplayStats_special_defense)
+    min (Optional) max (One)
+  }
+  property (move_info) {
+    type (PokemonMoves)
     min (Optional) max (Many)
   }
 }

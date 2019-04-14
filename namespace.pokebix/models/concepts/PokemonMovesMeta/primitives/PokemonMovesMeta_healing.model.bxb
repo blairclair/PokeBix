@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_healing) {
+  description (__DESCRIPTION__)
+}

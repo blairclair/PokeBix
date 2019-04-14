@@ -1,0 +1,13 @@
+result-view  {
+  match: Pokemon  (this){
+    from-output: andWhatColor
+  }
+  render  {
+
+    layout-macro (AndWhatColorLayout){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}

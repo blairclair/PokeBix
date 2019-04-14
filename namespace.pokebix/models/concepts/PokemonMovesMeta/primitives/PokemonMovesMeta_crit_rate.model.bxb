@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_crit_rate) {
+  description (__DESCRIPTION__)
+}

@@ -1,10 +1,10 @@
-action (PokemonDisplayStats_action) {
+action (findPokemonSprites) {
   type(Search)
   description (__DESCRIPTION__)
   collect {
     input (Pokemon) {
       type (Pokemon)
-      min (Optional) max (One)
+      min (Required) max (One)
     }
   }
   output (Pokemon)

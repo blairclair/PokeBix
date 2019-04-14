@@ -1,0 +1,3 @@
+integer (PokemonMovesStatChanges_change) {
+  description (__DESCRIPTION__)
+}

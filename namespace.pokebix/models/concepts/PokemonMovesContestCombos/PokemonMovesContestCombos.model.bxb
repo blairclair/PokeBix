@@ -1,0 +1,14 @@
+structure (PokemonMovesContestCombos) {
+  property (accuracy) {
+    type (PokemonMoves_accuracy)
+    min (Optional) max (One)
+  }
+  property (normal) {
+    type (PokemonMovesNormal)
+    min (Optional) max (One)
+  }
+  property (super) {
+    type (PokemonMovesSuper)
+    min (Optional) max (One)
+  }
+}

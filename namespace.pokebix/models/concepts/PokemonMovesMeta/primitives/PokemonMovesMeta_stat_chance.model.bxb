@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_stat_chance) {
+  description (__DESCRIPTION__)
+}

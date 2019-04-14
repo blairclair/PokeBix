@@ -1,0 +1,31 @@
+structure (PokemonMovesPastValues) {
+  description (__DESCRIPTION__)
+  property (accuracy) {
+    type (PokemonMovesPastValues_accuracy)
+    min (Optional) max (One)
+  }
+  property (effect_chance) {
+    type (PokemonMoves_effect_chance)
+    min (Optional) max (One)
+  }
+  property (effect_entries) {
+    type (PokemonMovesEffectEntries)
+    min (Optional) max (One)
+  }
+  property (power) {
+    type (PokemonMovesPastValues_power)
+    min (Optional) max (One)
+  }
+  property (pp) {
+    type (PokemonMovesPastValues_pp)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (PokemonMovesPastValues_type)
+    min (Optional) max (One)
+  }
+   property (version_group) {
+    type (NamedAPIResourceVersionGroup)
+    min (Optional) max (One)
+  }
+}

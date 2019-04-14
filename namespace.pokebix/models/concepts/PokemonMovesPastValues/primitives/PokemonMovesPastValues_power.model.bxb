@@ -1,0 +1,3 @@
+integer (PokemonMovesPastValues_power) {
+  description (__DESCRIPTION__)
+}

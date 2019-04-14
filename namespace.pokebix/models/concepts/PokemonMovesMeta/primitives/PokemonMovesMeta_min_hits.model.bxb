@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_min_hits) {
+  description (__DESCRIPTION__)
+}

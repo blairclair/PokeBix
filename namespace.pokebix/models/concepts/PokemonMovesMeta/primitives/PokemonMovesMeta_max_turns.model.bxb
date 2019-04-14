@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_max_turns) {
+  description (__DESCRIPTION__)
+}

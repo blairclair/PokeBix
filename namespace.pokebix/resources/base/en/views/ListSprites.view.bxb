@@ -1,0 +1,13 @@
+result-view  {
+  match: Pokemon  (this){
+    from-output: findPokemonSprites
+  }
+  render  {
+
+    layout-macro (ListSpritesLayout){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}

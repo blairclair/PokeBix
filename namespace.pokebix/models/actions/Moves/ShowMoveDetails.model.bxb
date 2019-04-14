@@ -1,0 +1,11 @@
+action (ShowMoveDetails) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (Pokemon_move) {
+      type (PokemonMoves)
+      min (Optional) max (One)
+    }
+  }
+  output (PokemonMoves)
+}

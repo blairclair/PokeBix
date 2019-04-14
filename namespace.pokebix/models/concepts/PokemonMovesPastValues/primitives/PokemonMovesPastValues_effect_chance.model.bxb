@@ -1,0 +1,3 @@
+integer (PokemonMovesPastValues_effect_chance) {
+  description (__DESCRIPTION__)
+}

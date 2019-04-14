@@ -1,0 +1,22 @@
+layout-macro-def(ShowMoveDetailsLayout) {
+  params {
+    param (Pokemon_move) {
+      type (PokemonMoves)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        paragraph {
+          value ("#{value(Pokemon_move.name)}")
+        }
+        paragraph {
+          value ("#{value(Pokemon_move.effect_entries[0].effect)}")
+        }
+      }
+    }
+  }
+}

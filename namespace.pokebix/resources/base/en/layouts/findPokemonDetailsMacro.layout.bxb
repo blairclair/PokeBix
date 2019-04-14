@@ -43,34 +43,4 @@ layout-macro-def(findPokemonDetailsMacro) {
       }
     }
   }
-  // content {
-  //   section {  // this macro returns a "section"
-  //     content {
-  //       image {
-  //         url ("#{value(Pokemon.sprites.front_default)}")
-  //       }
-  //       paragraph {
-  //         value ("It's #{value(Pokemon.name)}!")
-  //         style (Detail_M)
-  //       }
-  //       paragraph  {
-  //         value("id: #{value(Pokemon.id)}")
-  //       }
-  //       paragraph {
-  //         value ("type: #{value(Pokemon.types.type.name)}")
-  //         style (Detail_M)
-  //       }
-  //       paragraph  {
-  //         value  ("weight: #{value(Pokemon.weight)}")
-  //         style  (Detail_M)
-  //       }
-  //       paragraph  {
-  //         value  ("abilities: #{value(Pokemon.abilities.ability.name)}")
-  //       }
-  //       paragraph{
-  //         value ("cool fact: #{value(Pokemon.flavor_text)}")
-  //       }
-  //     }
-  //   }
-  // }
 }

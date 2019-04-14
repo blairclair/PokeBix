@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_flinch_chance) {
+  description (__DESCRIPTION__)
+}

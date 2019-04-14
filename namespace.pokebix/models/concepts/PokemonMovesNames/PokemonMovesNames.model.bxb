@@ -1,0 +1,11 @@
+structure (PokemonMovesNames) {
+  description (__DESCRIPTION__)
+  property (language) {
+    type (NamedAPIResourceLanguage)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (PokemonMovesNames_name)
+    min (Optional) max (One)
+  }
+}

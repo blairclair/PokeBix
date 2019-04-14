@@ -1,0 +1,11 @@
+structure (PokemonMovesEffectChangesEffectEntries) {
+  description (__DESCRIPTION__)
+  property (effect) {
+    type (PokemonMovesEffectChangesEffectEntries_effect)
+    min (Optional) max (One)
+  }
+  property (language) {
+    type (NamedAPIResourceLanguage)
+    min (Optional) max (One)
+  }
+}

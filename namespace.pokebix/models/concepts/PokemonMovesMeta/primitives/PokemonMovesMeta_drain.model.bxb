@@ -1,0 +1,3 @@
+integer (PokemonMovesMeta_drain) {
+  description (__DESCRIPTION__)
+}

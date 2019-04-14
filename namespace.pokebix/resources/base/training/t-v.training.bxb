@@ -8,8 +8,18 @@ train (t-v80wak1jk44jtopj26hye8d79) {
   plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMJvhFOlpwuDLG798ZkpDCwMjAxMDMxAmgHKYgSzQIAJSAPFAQ==)
   last-modified (1555029565428)
 }
+train (t-vax49r0nt4talipbezj3ur3bf) {
+  utterance ([g:findPokemonMoves:continue:findPokemonSpecies] And what are its moves)
+  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMyljk0jLzUqDyvvllqcV4DWBiYARiBiDJyMAAowE=)
+  last-modified (1555268401121)
+}
 train (t-vv92teuvl7arvsn6axqj1278o) {
   utterance ("[g:findPokemonByID] What pokemon has the id of (132)[v:Pokemon_id]?")
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)
   last-modified (1555005392376)
+}
+train (t-vvbbykljpc9tpfekiru1rwulu) {
+  utterance ([g:findPokemonSprites:continue:findPokemonSpecies] and show me its sprites)
+  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQVFmSWpxXiNYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555283731042)
 }
