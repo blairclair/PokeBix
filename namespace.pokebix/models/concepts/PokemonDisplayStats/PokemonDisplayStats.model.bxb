@@ -4,4 +4,8 @@ structure (PokemonDisplayStats) {
     type (PokemonDisplayStats_hp)
     min (Optional) max (One)
   }
+  property (base_stats) {
+    type (PokemonDisplayStats_base_stats)
+    min (Optional) max (One)
+  }
 }

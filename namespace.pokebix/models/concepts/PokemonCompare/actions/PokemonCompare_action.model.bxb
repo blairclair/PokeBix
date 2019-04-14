@@ -10,10 +10,10 @@ action (PokemonCompare_action) {
       type (PokemonCompareSecond)
       min (Required) max (One)
     }
-    input (PokemonCompare) {
-      type (PokemonCompare)
-      min (Required) max (One)
-    }
+    // input (PokemonCompare) {
+    //   type (PokemonCompare)
+    //   min (Required) max (One)
+    // }
   }
-  output (PokemonCompare)
+  output (Pokemon)
 }

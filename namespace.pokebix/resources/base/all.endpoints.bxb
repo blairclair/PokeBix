@@ -52,6 +52,10 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (pokemonEvolvesFrom.js)
     }
+    action-endpoint (pokemonEvolvesFrom) {
+      accepted-inputs (Pokemon)
+      local-endpoint (pokemonEvolvesFrom.js)
+    }
     
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

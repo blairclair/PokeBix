@@ -3,3 +3,8 @@ train (t-4s6xmnl8s7ecn0x2pavv2crj3) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)
   last-modified (1555004913517)
 }
+train (t-4z22ta49eao0kinxshmfaw5fh) {
+  utterance ([g:findPokemonTypeByName:continue:findPokemonSpecies] and what type is it?)
+  plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIwACjAQ==)
+  last-modified (1555208865219)
+}

@@ -7,16 +7,40 @@ layout-macro-def(PokemonCompareLayoutMacro) {
     }
   }
 
-  content {
-    section {  // this macro returns a "section"
-      content {
-         image {
+   content{
+    section{
+      content{
+        image{
           url ("#{value(Pokemon.sprites.front_default)}")
+          aspect-ratio(21:9)
         }
-        paragraph {
-          value ("#{value(Pokemon.name)} has a weight of #{value(Pokemon.weight)}")
-          style (Detail_M)
+        image-card{
+          aspect-ratio(1:1)
+          // image-object-fit (Contain)
+          title-area{
+            
+            halign (Center)
+            slot1{
+              text{
+                value ("Name: #{value(Pokemon.name)} extra stats")
+                style(Title_S)
+              }
+            }
+            slot2{
+              paragraph{
+                value("hp: #{value(Pokemon.display_stats.display_hp)}")
+              }
+            }
+            slot3{
+              paragraph{
+                value("#{value(Pokemon.flavor_text)}  \n \n \n \n \n \n.") 
+                style(Detail_M)
+              }
+            }
+          } 
+          image-url ("[#{value(Pokemon.image_set[0].url)}]")
         }
+       
       }
     }
   }

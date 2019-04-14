@@ -3,7 +3,7 @@ module.exports.function = function findPokemonStat (Pokemon) {
   
   for (var i in stats){
     if (stats[i].stat.name == "hp")
-     Pokemon.PokemonDisplayStats_hp = stats[i].base_stat
+     Pokemon.PokemonDisplayStats.display_hp = stats[i].base_stat
   }
 return Pokemon
 }

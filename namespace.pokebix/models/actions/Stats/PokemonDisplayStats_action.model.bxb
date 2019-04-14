@@ -1,0 +1,11 @@
+action (PokemonDisplayStats_action) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (Pokemon) {
+      type (Pokemon)
+      min (Optional) max (One)
+    }
+  }
+  output (Pokemon)
+}
