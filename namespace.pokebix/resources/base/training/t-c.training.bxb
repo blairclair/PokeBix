@@ -3,3 +3,8 @@ train (t-c43cmizw278rvbho02rtgx006) {
   plan (Y2BjkCnISaxML8ovzUvRK8jPTk3KrNALqSxIjc9LzE1lUMEim5aZlwJSEZSak1iSmZ9XzCCOwwwGOVyGp6alpSaXMCjiMd6p0g/kAvzuY2VgZGBiYGZgAbIYgGwQjwVIMoB5IMAMpJlBsgA=)
   last-modified (1555033910242)
 }
+train (t-c7g74t3wmd2pcp7wb6hafu05y) {
+  utterance ([g:Pokemon_weight:continue:findPokemonSpecies,r:findPokemonSpecies] and how much does it weigh?)
+  plan (Y2BhUCzISaxML8ovzUvRK8jPTk3KrNALANK5+Xnx5amZ6RklDFK4lTCoYpFLy8xLgcoHF6QmZ6YW4zWCmYGRgQlIMoBpJiAJAkwQDAA=)
+  last-modified (1555199678328)
+}
