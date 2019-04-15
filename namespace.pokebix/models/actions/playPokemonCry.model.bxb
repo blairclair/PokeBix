@@ -10,7 +10,6 @@ action (playPokemonCry) {
           goal: PokemonCry
         }
       }
-      hidden
     }
     computed-input (pokemon) {
       description (Pass the audio info object)
@@ -21,7 +20,6 @@ action (playPokemonCry) {
           value: $expr(PokemonCryToPlay)
         }
       }
-      hidden
     }
   }
   output (Result)

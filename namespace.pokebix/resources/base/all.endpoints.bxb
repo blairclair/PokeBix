@@ -77,6 +77,10 @@ endpoints {
     action-endpoint (playPokemonCry) {
       local-endpoint (playPokemonCry.js)
     }
+    action-endpoint (findMoveByName) {
+      accepted-inputs (PokemonMoves_name)
+      local-endpoint (findMorePokemonMoves.js)
+    }
     
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
