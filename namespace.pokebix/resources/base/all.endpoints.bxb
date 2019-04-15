@@ -71,6 +71,12 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (findPokemonSprites.js)
     }
+    action-endpoint (PokemonCry) {
+      local-endpoint (PokemonCry.js)
+    }
+    action-endpoint (playPokemonCry) {
+      local-endpoint (playPokemonCry.js)
+    }
     
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

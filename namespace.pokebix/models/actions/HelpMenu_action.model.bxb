@@ -1,4 +1,5 @@
 action (HelpMenu_action) {
+  type(Search)
   description (__DESCRIPTION__)
   output (HelpMenu)
 }

@@ -6,6 +6,7 @@ capsule {
     import (viv.entity) {as (entity) version (3.18.2)}
     import (viv.time) {as (time) version (2.85.1)}
     import (viv.geo) {as (geo) version-from (entity)}
+    import (bixby.audioPlayer) { version (0.1.9) as (audioPlayer)}
   }
   runtime-flags {
     support-halt-effect-in-computed-inputs

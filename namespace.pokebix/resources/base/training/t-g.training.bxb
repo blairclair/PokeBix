@@ -3,3 +3,8 @@ train (t-g6p7aspyifrvte14f41a8cog0) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)
   last-modified (1555005969369)
 }
+train (t-gthl8xuj7m6k9xzc91q1u7u4g) {
+  utterance ("[g:playPokemonCry] What does (ditto)[v:Pokemon_name] sound like?")
+  plan (Y2BlEC/Iz04tSU3M1QMxkjIr9IJSi0tzShjkMSQKchIrA4Ds3Pw856JKBmmgWFKlXmJpSmZ+AFAqtUjPEcT2zEvLZ5DG0I2kUxaXZHxeYm4qAwsDIwMTAzOQZoCyGMEsEGAC0kBxAA==)
+  last-modified (1555364945477)
+}

@@ -1,0 +1,28 @@
+action (playPokemonCry) {
+  type (Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (PokemonCryToPlay) {
+      type (audioPlayer.AudioInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: PokemonCry
+        }
+      }
+      hidden
+    }
+    computed-input (pokemon) {
+      description (Pass the audio info object)
+      type (audioPlayer.Result)
+      compute {
+        intent {
+          goal: audioPlayer.PlayAudio
+          value: $expr(PokemonCryToPlay)
+        }
+      }
+      hidden
+    }
+  }
+  output (Result)
+}
