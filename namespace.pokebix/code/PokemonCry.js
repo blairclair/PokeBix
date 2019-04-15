@@ -3,7 +3,7 @@ module.exports.function = function pokemonCry (Pokemon_name) {
   
   urlString = "https://play.pokemonshowdown.com/audio/cries/" + Pokemon_name + ".mp3"
   
-  intput.audioItem = [{
+  input.audioItem = [{
     id: 1,
     stream: [
       {
@@ -17,9 +17,9 @@ module.exports.function = function pokemonCry (Pokemon_name) {
     albumName: "Your mom",
     albumArtUrl: ""
   }]
-  input.catagory = "SINGLE"
+  input.category = 'RADIO'
   input.displayName = "Pokemon Capsule"
-  input.repeateMode = "ALL"
+  input.repeatMode = "ALL"
   
   return input
 }
