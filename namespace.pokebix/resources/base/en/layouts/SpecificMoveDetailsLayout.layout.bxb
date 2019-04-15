@@ -10,6 +10,10 @@ layout-macro-def(SpecificMoveDetailsLayout) {
   content {
     section {  // this macro returns a "section"
       content {
+        paragraph{
+          value("#{value(PokemonMoves.name)}")
+          style(Title_M)
+        }
         paragraph {
           value ("power: #{value(PokemonMoves.power)}")
           style (Detail_M)
