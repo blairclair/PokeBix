@@ -34,7 +34,7 @@ layout-macro-def(PokemonDisplayStatsMacro) {
             }
             slot3{
               paragraph{
-                value("special-defense: #{value(Pokemon.display_special_defense)}\nspecial-attack: #{value(Pokemon.display_special_attack)}\n \n \n \n \n \n.")
+                value("special-defense: #{value(Pokemon.display_special_defense)}\nspecial-attack: #{value(Pokemon.display_special_attack)}\n\n \n \n.")
                 style(Detail_L)
               }
             }
