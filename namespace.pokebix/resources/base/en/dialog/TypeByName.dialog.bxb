@@ -10,7 +10,7 @@ dialog (Result) {
       template ("fighting joke here")
     }
     case("flying"){
-      template ("flying joke here")
+      template ("You know flying type could have been named Landing type because thats all they do half the time.")
     }
     case("poison"){
       template ("poison joke here")
@@ -22,7 +22,7 @@ dialog (Result) {
       template ("rock joke here")
     }
     case("bug"){
-      template ("When did the fly fly? When the spider spied her.")
+      template ("Bug type, well thats what they do.")
     }
     case("ghost"){
       template (“Boo unto others as you would have others boo unto you.”)
@@ -31,16 +31,16 @@ dialog (Result) {
       template ("steel joke here")
     }
     case("fire"){
-      template ("ground joke here")
+      template ("Who invented fire? Some bright spark.")
     }
     case("water"){
-      template ("Why did the water pokemon cross the ocean? To get to the other tide!")
+      template ("Water you looking for? Is it #{value(name)}?")
     }
     case("grass"){
       template ("grass joke here")
     }
     case("electric"){
-      template ("What does an electric-type Pokémon say when they get gassy while drinking milk? I'm Zaptos intolerant!")    
+      template ("What does an electric-type Pokémon say when they get gassy while drinking milk? I'm Zapdos intolerant!")    
     }
     case("psychic"){
       template ("psychic joke here")    

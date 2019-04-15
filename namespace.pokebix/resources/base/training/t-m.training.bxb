@@ -1,8 +1,3 @@
-train (t-m0onda4zx80im1gmupx7h1snq) {
-  utterance ([g:HelpMenu_action] pokemon help)
-  plan (Y2BikCzIz04tSU3M1QMxkjIr9DxScwp8U/NKGRRwSsUnJpdk5ucxMAIhAxQDSQA=)
-  last-modified (1555337288862)
-}
 train (t-ml2tpzfrqnfey7gxni7cuymys) {
   utterance ([g:andWhatColor:continue:findPokemonSpecies,r:findPokemonSpecies] and what color is it?)
   plan (Y2BlUCjISaxML8ovzUvRK8jPTk3KrNALANK5+Xnxyfk5+UUM8lhUJOalhGckljiDFUjhNoJBFYtcWmZeClQ+uCA1OTO1GK8RLAyMDEwMzECaAcpiBLNAgAlIMzMwAAA=)
