@@ -7,10 +7,10 @@ dialog (Result) {
       template ("What pun can you really make about a normal pokemon?")
     }
     case("fighting"){
-      template ("fighting joke here")
+      template ("The first rule about fighting pokemon is don't talk about fighting pokemon")
     }
     case("flying"){
-      template ("You know flying type could have been named Landing type because thats all they do half the time.")
+      template ("You know flying type could have been named landing type because thats all they do half the time.")
     }
     case("poison"){
       template ("Better bring an anti-anti-antidote just in case you get un-un-poisoned")
@@ -40,7 +40,7 @@ dialog (Result) {
       template ("#{value(name)} is exciting as watching grass growlith")
     }
     case("electric"){
-      template ("What does an {value(name)} say when they get gassy while drinking milk? I'm Zapdos intolerant!")    
+      template ("What does a #{value(name)} say when they get gassy while drinking milk? I'm Zapdos intolerant!")    
     }
     case("psychic"){
       template ("Is this the pokemon you were looking for? I bet it was.")    

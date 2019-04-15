@@ -12,6 +12,7 @@ layout-macro-def(findPokemonDetailsMacro) {
         image{
           url ("#{value(Pokemon.sprites.front_default)}")
           aspect-ratio(21:9)
+          object-fit (Contain)
         }
         image-card{
           aspect-ratio(1:1)

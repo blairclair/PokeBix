@@ -11,7 +11,8 @@ layout-macro-def(HelpMenuLayout) {
     section {  // this macro returns a "section"
       content {
         image{
-          url("images/pokemon.png")
+          url("images/pokebix_logo_275.png")
+          object-fit (Contain)
         }
        paragraph{
           value("To find information about specific pokemon")
@@ -28,7 +29,7 @@ layout-macro-def(HelpMenuLayout) {
           title-area{
             halign (Start)
             slot1{
-              text("Show me the pokemon `pokemon id`")
+              text("Show me the pokemon number `pokemon id`")
             }
           }
         }
@@ -51,14 +52,7 @@ layout-macro-def(HelpMenuLayout) {
             }
           }
         }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text("And what is its color?")
-            }
-          }
-        }
+ 
         title-card{
           title-area{
             halign (Start)
@@ -72,14 +66,6 @@ layout-macro-def(HelpMenuLayout) {
             halign (Start)
             slot1{
               text("And show me its sprites")
-            }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text("And what level does it learn `Pokemon move`?")
             }
           }
         }
@@ -99,6 +85,14 @@ layout-macro-def(HelpMenuLayout) {
             halign (Start)
             slot1{
               text("What type is `Pokemon name`?")
+            }
+          }
+        }
+          title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Show me a random Pokemon")
             }
           }
         }
