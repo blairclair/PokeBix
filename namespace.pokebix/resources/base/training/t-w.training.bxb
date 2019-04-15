@@ -8,3 +8,8 @@ train (t-whcawzhaxsskp8bbksll9nt0d) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)
   last-modified (1555019393781)
 }
+train (t-wxpsd854f532a7wxz105ixulp) {
+  utterance ("[g:PokemonCompare_action] who weighs more {[g:PokemonCompareFirst] (ditto)[v:Pokemon_name]} or {[g:PokemonCompareSecond] (machoke)[v:Pokemon_name]}")
+  plan (Y+BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMaLhnn/NyCxKLU+MTkkkygOhUC6twyi4pL8NijSkB/cGpyfl4KHgOUMGTSMvNSoLJOlX6JuakMsrh0x+eBpKlgBCcDIwMTAzMDCwMrAxsDOwMHUIQBLMYIFGMGirECxRiBYixgzAiWBQFWsCp2oBgnkGZiYAEA)
+  last-modified (1555351932685)
+}

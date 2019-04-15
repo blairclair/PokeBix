@@ -3,8 +3,3 @@ train (t-1kuki7gg3od76chtt7uus0xhc) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)
   last-modified (1554998655069)
 }
-train (t-1sg8ajbtxlvtppae6oxoeg8cs) {
-  utterance ("[g:PokemonCompare_action] Who weighs more {[g:PokemonCompareSecond] (pikachu)[v:Pokemon_name]} or {[g:PokemonCompareFirst] (ditto)[v:Pokemon_name]}?")
-  plan (Y+BikCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGrjlnPNzCxKLUuMTk0sygSrVCKp0yywqLsFrmzpBM4JTk/PzUvAaooJFLi0zLwUq71Tpl5ibyiCP24T4PJACKhnDycDIwMTAzMDCwMrAxsDOwAEUYQCLMQLFmIFirEAxRqAYCxgzgmVBgBWsih0oxgmkmRhYAA==)
-  last-modified (1555201971384)
-}

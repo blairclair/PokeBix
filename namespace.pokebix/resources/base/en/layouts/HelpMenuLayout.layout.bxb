@@ -71,7 +71,7 @@ layout-macro-def(HelpMenuLayout) {
           title-area{
             halign (Start)
             slot1{
-              text("And show me its pixels")
+              text("And show me its sprites")
             }
           }
         }

@@ -10,132 +10,24 @@ layout-macro-def(PokemonMovesLayoutMacro) {
     section {  // this macro returns a "section"
       content {
        
-        title-card{
+        for-each (Pokemon.move_info){
+          as(i){
+              title-card{
           title-area{
             halign (Start)
             slot1{
               text{
-                value("#{value(Pokemon.move_info[0].name)}")
+                value("#{value(Pokemon.move_info[i].name)}")
               }
             }
           }
           on-click{
             intent{
                goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[0])}
+              value{ $expr(Pokemon.move_info[i])}
               }
           }
         }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[1].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[1])}
-              }
-          }
-        }
-          title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[2].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[2])}
-              }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[3].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[3])}
-              }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[4].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[4])}
-              }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[5].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[5])}
-              }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[6].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[6])}
-              }
-          }
-        }
-        title-card{
-          title-area{
-            halign (Start)
-            slot1{
-              text{
-                value("#{value(Pokemon.move_info[7].name)}")
-              }
-            }
-          }
-            on-click{
-            intent{
-               goal: ShowMoveDetails
-              value{ $expr(Pokemon.move_info[7])}
-              }
           }
         }
       }
