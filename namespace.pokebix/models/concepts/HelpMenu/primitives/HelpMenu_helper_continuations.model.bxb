@@ -1,0 +1,8 @@
+enum (HelpMenu_helper_continuations) {
+  description (__DESCRIPTION__)
+  symbol ("And what is its type?")
+  symbol ("And what is its color?")
+  symbol ("And show me its moves")
+  symbol ("And show me its pixels")
+  symbol ("And what level does it learn move?")
+}

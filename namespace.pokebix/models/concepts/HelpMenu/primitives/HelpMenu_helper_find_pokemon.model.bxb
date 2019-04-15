@@ -1,0 +1,7 @@
+enum (HelpMenu_helper_find_pokemon) {
+  description (__DESCRIPTION__)
+  symbol ("who is pokemon name")
+  symbol ("who is pokemon id")
+  symbol ("show me pokemon name")
+  symbol ("show me pokemon id")
+}

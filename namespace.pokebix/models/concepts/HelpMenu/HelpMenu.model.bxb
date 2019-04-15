@@ -1,0 +1,15 @@
+structure (HelpMenu) {
+  description (__DESCRIPTION__)
+  property (helper_find_pokemon) {
+    type (HelpMenu_helper_find_pokemon)
+    min (Optional) max (One)
+  }
+  property (helper_continuations) {
+    type (HelpMenu_helper_continuations)
+    min (Optional) max (One)
+  }
+  property (helper_other) {
+    type (HelpMenu_helper_other)
+    min (Optional) max (One)
+  }
+}

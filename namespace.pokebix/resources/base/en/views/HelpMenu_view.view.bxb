@@ -1,0 +1,13 @@
+result-view  {
+  match: HelpMenu  (this){
+    from-output: HelpMenu_action
+  }
+  render  {
+
+    layout-macro (HelpMenuLayout){
+      param  (HelpMenu){
+        expression (this)
+      }
+    }
+  }
+}

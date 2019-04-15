@@ -52,6 +52,9 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (pokemonEvolvesFrom.js)
     }
+    action-endpoint (HelpMenu_action) {
+      local-endpoint (HelpMenuAction.js)
+    }
     action-endpoint (pokemonEvolvesFrom) {
       accepted-inputs (Pokemon)
       local-endpoint (pokemonEvolvesFrom.js)

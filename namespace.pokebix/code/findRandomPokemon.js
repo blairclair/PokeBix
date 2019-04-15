@@ -10,6 +10,7 @@ module.exports.function = function findRandomPokemon () {
   for (var i in flavor){
     if (flavor[i].language.name == "en"){
       pokemon.flavor_text = flavor[i].flavor_text
+      pokemon.flavor_text.replace(/(\r\n|\n|\r)+/gm, ' ').replace(/ +/g, ' ')
     }
     i++;
   }

@@ -1,0 +1,4 @@
+action (HelpMenu_action) {
+  description (__DESCRIPTION__)
+  output (HelpMenu)
+}

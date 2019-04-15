@@ -1,0 +1,5 @@
+enum (HelpMenu_helper_other) {
+  description (__DESCRIPTION__)
+  symbol ("Who weighs more, pokemon one or pokemon two?")
+  symbol ("What type is pokemon name?")
+}
