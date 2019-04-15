@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: Pokemon(this){
+    from-output: findPokemonStats
+   }
+  template("There are #{value(name)}'s base stats")
+}

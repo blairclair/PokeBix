@@ -4,7 +4,7 @@ dialog (Result) {
    }
   switch (types.type[0].name){
     case("normal"){
-      template ("normal joke here")
+      template ("What pun can you really make about a normal pokemon?")
     }
     case("fighting"){
       template ("fighting joke here")
@@ -13,13 +13,13 @@ dialog (Result) {
       template ("You know flying type could have been named Landing type because thats all they do half the time.")
     }
     case("poison"){
-      template ("poison joke here")
+      template ("Better bring an anti-anti-antidote just in case you get un-un-poisoned")
     }
     case("ground"){
-      template ("ground joke here")
+      template ("I really dig ground types.")
     }
     case("rock"){
-      template ("rock joke here")
+      template ("This #{value(name)} really ROCKS")
     }
     case("bug"){
       template ("Bug type, well thats what they do.")
@@ -28,7 +28,7 @@ dialog (Result) {
       template (“Boo unto others as you would have others boo unto you.”)
     }
     case("steel"){
-      template ("steel joke here")
+      template ("What kind of music do steel types listen to? Heavy metal.")
     }
     case("fire"){
       template ("Who invented fire? Some bright spark.")
@@ -37,25 +37,25 @@ dialog (Result) {
       template ("Water you looking for? Is it #{value(name)}?")
     }
     case("grass"){
-      template ("grass joke here")
+      template ("#{value(name)} is exciting as watching grass growlith")
     }
     case("electric"){
-      template ("What does an electric-type Pokémon say when they get gassy while drinking milk? I'm Zapdos intolerant!")    
+      template ("What does an {value(name)} say when they get gassy while drinking milk? I'm Zapdos intolerant!")    
     }
     case("psychic"){
-      template ("psychic joke here")    
+      template ("Is this the pokemon you were looking for? I bet it was.")    
     }
     case("ice"){
-      template ("ice joke here")    
+      template ("#{value(name)} is cold as regice")    
     }
     case("dragon"){
       template ("Why are dragons such good story tellers? They have very impressive tails.")    
     }
     case("dark"){
-      template ("dark joke here")    
+      template ("I'd read you a joke, but it's to dark in here.")    
     }
     case("fairy"){
-      template ("fairy joke here")    
+      template ("What is a fairy types favore carnival ride? The fairy go round.")    
     }
     default{
       template ("not")
