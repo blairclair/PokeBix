@@ -1,0 +1,65 @@
+dialog (Result) {
+  match: Pokemon(this){
+    from-output: findPokemonTypeByName
+   }
+  switch (types.type[0].name){
+    case("normal"){
+      template ("normal joke here")
+    }
+    case("fighting"){
+      template ("fighting joke here")
+    }
+    case("flying"){
+      template ("flying joke here")
+    }
+    case("poison"){
+      template ("poison joke here")
+    }
+    case("ground"){
+      template ("ground joke here")
+    }
+    case("rock"){
+      template ("rock joke here")
+    }
+    case("bug"){
+      template ("When did the fly fly? When the spider spied her.")
+    }
+    case("ghost"){
+      template (“Boo unto others as you would have others boo unto you.”)
+    }
+    case("steel"){
+      template ("steel joke here")
+    }
+    case("fire"){
+      template ("ground joke here")
+    }
+    case("water"){
+      template ("Why did the water pokemon cross the ocean? To get to the other tide!")
+    }
+    case("grass"){
+      template ("grass joke here")
+    }
+    case("electric"){
+      template ("What does an electric-type Pokémon say when they get gassy while drinking milk? I'm Zaptos intolerant!")    
+    }
+    case("psychic"){
+      template ("psychic joke here")    
+    }
+    case("ice"){
+      template ("ice joke here")    
+    }
+    case("dragon"){
+      template ("Why are dragons such good story tellers? They have very impressive tails.")    
+    }
+    case("dark"){
+      template ("dark joke here")    
+    }
+    case("fairy"){
+      template ("fairy joke here")    
+    }
+    default{
+      template ("not")
+    }
+  }
+  
+}

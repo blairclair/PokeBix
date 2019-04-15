@@ -2,5 +2,5 @@ dialog (Result) {
   match: Pokemon(this){
     from-output: findPokemonSprites
    }
-  template("Here are all of the sprites for #{value(name)}. Isn't it beautiful?")
+  template("Scroll to see all of the sprites for #{value(name)}. Isn't it beautiful?")
 }

@@ -9,6 +9,7 @@ layout-macro-def(PokemonMovesLayoutMacro) {
   content {
     section {  // this macro returns a "section"
       content {
+       
         title-card{
           title-area{
             halign (Start)
@@ -140,4 +141,5 @@ layout-macro-def(PokemonMovesLayoutMacro) {
       }
     }
   }
+
 }
