@@ -4,12 +4,10 @@ var config = require('config')
 
 module.exports.function = function findPokemonMoves (Pokemon) {
   var track = 0;
-  for (var i in Pokemon.moves){
-      if (track >= 8)
-        break ;
-      var tmpMoves = http.getUrl(Pokemon.moves[i].move.url, {format: 'json'})
-      Pokemon.move_info[i] = tmpMoves 
-    track++;
+  for (move in Pokemon.moves) {
+    var move = {'name': Pokemon.moves[move].move.name,
+               'url': Pokemon.moves[move].move.url};
+    Pokemon.move_info.push(move);
   }
   return Pokemon;
 }
