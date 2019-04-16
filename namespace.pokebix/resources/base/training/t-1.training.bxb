@@ -8,3 +8,8 @@ train (t-1kuki7gg3od76chtt7uus0xhc) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMGljk0jLzUqDyIZUFqU6Vfom5qQzyuE2JzwMpYGJgBGIGIMnIAAJQPgA=)
   last-modified (1554998655069)
 }
+train (t-1no2uqw7nkdpcb3g4vdt7o7f0) {
+  utterance ([g:findPokemonSprites:continue:findPokemonSpecies] and what can it look like?)
+  plan (Y2BmkCjIz04tSU3M1QMxkjIr9AKAdG5+HoMyhkxaZl4KVDa4oCizJLUYj3YmBkYgZgCSjAwMMBoA)
+  last-modified (1555373281695)
+}
