@@ -3,3 +3,8 @@ train (t-jjhwywbxhokqsb33pwf41xui0) {
   plan (Y2BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMSljk0jLzUqDyTpWeLgyyuPXHZ6YwMDEwAjEDkGRkAAEoHwA=)
   last-modified (1555019591229)
 }
+train (t-jtz09yty4spejlvd3846176z3) {
+  utterance ("[g:findPokemonMoves] what moves does (squirtle)[v:Pokemon_name] know?")
+  plan (Y2BlkCjIz04tSU3M1QMxkjIr9AKAdG5+HoMihkxaZl4KVNY3vyy1GI9mJXyanSr9EnNTGWRx6Y7PA0mzMDAyMDEwA2kGKIsRzAIBJiANFAcA)
+  last-modified (1555372929834)
+}

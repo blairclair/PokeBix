@@ -1,0 +1,5 @@
+train (t-z6hai2x9es1q566zbmazwnl6b) {
+  utterance ("[g:findPokemonMoves] what moves does (pikachu)[v:Pokemon_name] know?")
+  plan (Y2BlkCjIz04tSU3M1QMxkjIr9AKAdG5+HoMihkxaZl4KVNY3vyy1GI9mJXyanSr9EnNTGWRx6Y7PA0mzMDAyMDEwA2kGKIsRzAIBJiANFAcA)
+  last-modified (1555372881977)
+}
