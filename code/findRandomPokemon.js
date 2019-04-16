@@ -11,8 +11,8 @@ module.exports.function = function findRandomPokemon () {
     if (flavor[i].language.name == "en"){
       pokemon.flavor_text = flavor[i].flavor_text
       pokemon.flavor_text.replace(/(\r\n|\n|\r)+/gm, ' ').replace(/ +/g, ' ')
+      break;
     }
-    i++;
   }
   pokemon.PokemonSpecies = species
     pokemon.image_set = [
