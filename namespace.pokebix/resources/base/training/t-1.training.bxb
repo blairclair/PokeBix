@@ -1,7 +1,7 @@
 train (t-1c60hzrzr0wwr7o7v5scfltrx) {
   utterance ([g:HelpMenu_action] Pokey Bixby help)
   plan (Y2BikCzIz04tSU3M1QMxkjIr9DxScwp8U/NKGRRwSsUnJpdk5ucxMAIhAxQDSQA=)
-  last-modified (1555353275198)
+  last-modified (1555371315992)
 }
 train (t-1kuki7gg3od76chtt7uus0xhc) {
   utterance ("[g:findPokemonTypeByName] What type is (ditto)[v:Pokemon_name]?")
