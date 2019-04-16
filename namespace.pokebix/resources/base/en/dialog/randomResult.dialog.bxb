@@ -1,6 +1,0 @@
-dialog (Result) {
-  match: Pokemon(this){
-    from-output: findRandomPokemon
-   }
-  template("Who's that pokemon? It's #{value(name)}!")
-}

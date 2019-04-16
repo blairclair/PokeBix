@@ -1,0 +1,33 @@
+layout-macro-def(SpecificMoveDetailsLayout) {
+  params {
+    param (PokemonMoves) {
+      type (PokemonMoves)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        paragraph{
+          value("#{value(PokemonMoves.name)}")
+          style(Title_M)
+        }
+        paragraph {
+          value ("power: #{value(PokemonMoves.power)}")
+          style (Detail_M)
+        }
+        paragraph{
+          value("pp: #{value(PokemonMoves.pp)}")
+        }
+        paragraph{
+          value("type: #{value(PokemonMoves.type.name)}")
+        }
+        paragraph{
+          value("#{value(PokemonMoves.effect_entries[0].effect)}")
+        }
+      }
+    }
+  }
+}

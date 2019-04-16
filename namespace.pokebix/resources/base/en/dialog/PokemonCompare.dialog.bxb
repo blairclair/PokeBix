@@ -1,6 +1,0 @@
-dialog (Result) {
-  match: Pokemon(this){
-    from-output: PokemonCompare_action
-   }
-  template("#{value(name)} comes in first weighing #{value(weight)}")
-}

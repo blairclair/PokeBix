@@ -1,0 +1,117 @@
+layout-macro-def(HelpMenuLayout) {
+  params {
+    param (HelpMenu) {
+      type (HelpMenu)
+      min (Required)
+      max (One)
+    }
+  }
+
+  content {
+    section {  // this macro returns a "section"
+      content {
+        image{
+          url("images/pokebix_logo_275.png")
+          object-fit (Contain)
+        }
+       paragraph{
+          value("To find information about specific pokemon")
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("What is the pokemon `pokemon name`?")
+            }
+          }
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Show me the pokemon number `pokemon id`")
+            }
+          }
+        }
+       title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Who is `pokemon name`?")
+            }
+          }
+        }
+        paragraph{
+          value("Once you have your pokemon, you can ask the pokebix some questions about it like")
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("And what is its type?")
+            }
+          }
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("And what are its stats?")
+            }
+          }
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("And show me its moves")
+            }
+          }
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("And show me its sprites")
+            }
+          }
+        }
+        paragraph{
+          value("Other things to ask the pokebix")
+        }
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Who weighs more, `pokemon one` or `pokemon two`?")
+            }
+          }
+        }
+         title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("What type is `Pokemon name`?")
+            }
+          }
+        }
+          title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Show me the move `Pokemon move`")
+            }
+          }
+        }
+          title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Show me a random Pokemon")
+            }
+          }
+        }
+      }
+    }
+  }
+}

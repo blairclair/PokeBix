@@ -1,0 +1,19 @@
+action (pokemonCompareTo) {
+  type (Calculation)
+  description (Compares two pokemon based off a stat and a comparison value)
+  collect {
+    input (PokemonCompareFirst) {
+      type (PokemonCompareFirst)
+      min (Required) max (One)
+    }
+    input (PokemonCompareSecond) {
+      type (PokemonCompareSecond)
+      min (Required) max (One)
+    }
+    // input (PokemonCompare) {
+    //   type (PokemonCompare)
+    //   min (Required) max (One)
+    // }
+  }
+  output (Pokemon)
+}

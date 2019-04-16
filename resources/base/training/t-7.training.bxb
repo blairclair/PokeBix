@@ -1,0 +1,5 @@
+train (t-7obd3pp0x6mvsj49hy8av2ioh) {
+  utterance ("[g:findPokemonMoveByName] show me the move (struggle)[v:PokemonMoves_name]")
+  plan (Y2BmkC3Iz04tSU3M1QMxkjIr9AKAdG5+nm9+WWoxgxqGdFpmXgqSEqdKv8TcVAYlvMbE54HUMDEwAjEDkGRkAAEoHwA=)
+  last-modified (1555434905113)
+}

@@ -1,0 +1,20 @@
+train (t-ydbzln0dsr8ih5zms31i8veu3) {
+  utterance ("[g:pokemon_height] How tall is (bulbasaur)[v:Pokemon_name]?")
+  plan (Y2BhUCzISaxML8ovzUvRK8jPTk3KrADTufl58RmpmekZJQxSWJQEQJQwqGCRS8vMS4HKO1X6JeamMsjjNiE+D6SAmYGRgQlIMoBpJiAJAkxADBQDAA==)
+  last-modified (1555199902447)
+}
+train (t-yhmuupk8s6do1s6wq2a1rlwfx) {
+  utterance ("[g:findPokemonSpecies,r:pokemonEvolvesFrom] What pokemon does {[g:findPokemonSpecies] (blastoise)[v:Pokemon_name]} evolve from?")
+  plan (Y+BmkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKsLmkAKLAtSw/pyy12K0oP3eIeIaLgZGBiYGZgYWBlYGNgZ2Bg4ETKMaARZQRLIqKGYAqGIFq2MHmsAEA)
+  last-modified (1555208786965)
+}
+train (t-yiun53ci179bx2oxhpiinepa4) {
+  utterance ([g:findPokemonRandom] find me a random pokemon)
+  plan (Y2BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMShkxaZl4KVDYoMS8lP5eBEQgZoBhIAgA=)
+  last-modified (1555437284688)
+}
+train (t-yt5xk7wjo19271982dvox6jup) {
+  utterance ("[g:Pokemon_weight] How much does (bulbasaur)[v:Pokemon_name] weigh?")
+  plan (Y2BhUCzISaxML8ovzUvRK8jPTk3KrNALANK5+Xnx5amZ6RklDFK4lTCoYJFLy8xLgco7Vfol5qYyyOOxJA+kgJmBkYEJSDKAaSYgCQJMQAwUAwA=)
+  last-modified (1555199839984)
+}

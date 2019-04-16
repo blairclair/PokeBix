@@ -1,0 +1,13 @@
+result-view  {
+  match: Pokemon  (this){
+    from-output: pokemonCompareTo
+  }
+  render  {
+
+    layout-macro (PokemonCompareLayoutMacro){
+      param  (Pokemon){
+        expression (this)
+      }
+    }
+  }
+}

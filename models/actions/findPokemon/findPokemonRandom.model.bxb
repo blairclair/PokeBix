@@ -1,0 +1,5 @@
+action (findPokemonRandom) {
+  type  (Search)
+  description (finds a random pokemon)
+  output (Pokemon)
+}

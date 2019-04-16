@@ -1,0 +1,5 @@
+train (t-lq22i5vv6qdltn9p3t5s1d64a) {
+  utterance ("[g:pokemonCompareTo] Who weighs more {[g:PokemonCompareFirst] (pikachu)[v:Pokemon_name]} or {[g:PokemonCompareSecond] (squirtle)[v:Pokemon_name]}")
+  plan (Y+BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMihkwBRMY5P7cgsSg1JJ9BBZdmqBK3zKLiEjxWqBLQH5yanJ+XgscAJQyZtMy8FKisU6VfYm4qgywu3fF5IGkqGMHJwMjAxMDMwMLAysDGwM7AARRhAIsxAsWYgWKsQDFGoBgLGDOCZUGAFayKHSjGCaSZGFgA)
+  last-modified (1555437953273)
+}

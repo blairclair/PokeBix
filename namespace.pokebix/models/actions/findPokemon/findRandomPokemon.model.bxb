@@ -1,5 +1,0 @@
-action (findRandomPokemon) {
-  type  (Search)
-  description (finds a random pokemon)
-  output (Pokemon)
-}

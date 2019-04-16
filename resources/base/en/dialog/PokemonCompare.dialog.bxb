@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: Pokemon(this){
+    from-output: pokemonCompareTo
+   }
+  template("#{value(name)} comes in first weighing #{value(weight)}")
+}

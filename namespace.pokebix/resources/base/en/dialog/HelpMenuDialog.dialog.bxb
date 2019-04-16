@@ -1,6 +1,0 @@
-dialog (Result) {
-  match: HelpMenu(this){
-    from-output: HelpMenu_action
-   }
-  template("Here is a list of options to ask the pokebix")
-}

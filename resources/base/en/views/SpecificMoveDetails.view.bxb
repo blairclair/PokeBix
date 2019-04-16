@@ -1,0 +1,13 @@
+result-view  {
+  match: PokemonMoves  (this){
+    from-output: findPokemonMoveByName
+  }
+  render  {
+
+    layout-macro (SpecificMoveDetailsLayout){
+      param  (PokemonMoves){
+        expression (this)
+      }
+    }
+  }
+}

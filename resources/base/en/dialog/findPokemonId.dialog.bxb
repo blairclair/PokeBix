@@ -1,0 +1,6 @@
+dialog (Result) {
+  match: Pokemon(this){
+    from-output: findPokemonByID
+   }
+  template("Who's that pokemon? It's #{value(name)}!")
+}
