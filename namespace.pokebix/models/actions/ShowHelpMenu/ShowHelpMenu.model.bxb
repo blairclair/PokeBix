@@ -1,4 +1,4 @@
-action (HelpMenu_action) {
+action (ShowHelpMenu) {
   type(Search)
   description (__DESCRIPTION__)
   output (HelpMenu)

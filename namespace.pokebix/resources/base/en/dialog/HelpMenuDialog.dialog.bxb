@@ -1,6 +1,6 @@
 dialog (Result) {
   match: HelpMenu(this){
-    from-output: HelpMenu_action
+    from-output: ShowHelpMenu
    }
   template("Here is a list of options to ask the pokebix")
 }

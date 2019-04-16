@@ -9,9 +9,9 @@ train (t-yhmuupk8s6do1s6wq2a1rlwfx) {
   last-modified (1555208786965)
 }
 train (t-yiun53ci179bx2oxhpiinepa4) {
-  utterance ([g:findRandomPokemon] find me a random pokemon)
-  plan (Y2BikCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMKljk0jLzUoIS81Lyc2GqGIGQAYqBJAA=)
-  last-modified (1555106623258)
+  utterance ([g:findPokemonRandom] find me a random pokemon)
+  plan (Y2BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMShkxaZl4KVDYoMS8lP5eBEQgZoBhIAgA=)
+  last-modified (1555437284688)
 }
 train (t-yt5xk7wjo19271982dvox6jup) {
   utterance ("[g:Pokemon_weight] How much does (bulbasaur)[v:Pokemon_name] weigh?")

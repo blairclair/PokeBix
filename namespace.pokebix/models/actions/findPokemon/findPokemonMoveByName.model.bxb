@@ -1,4 +1,4 @@
-action (findMoveByName) {
+action (findPokemonMoveByName) {
   type(Search)
   description (__DESCRIPTION__)
   collect {

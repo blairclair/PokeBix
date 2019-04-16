@@ -21,7 +21,7 @@ layout-macro-def(HelpMenuLayout) {
           title-area{
             halign (Start)
             slot1{
-              text("Show me the pokemon `pokemon name`")
+              text("What is the pokemon `pokemon name`?")
             }
           }
         }
@@ -52,7 +52,14 @@ layout-macro-def(HelpMenuLayout) {
             }
           }
         }
- 
+        title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("And what are its stats?")
+            }
+          }
+        }
         title-card{
           title-area{
             halign (Start)
@@ -85,6 +92,14 @@ layout-macro-def(HelpMenuLayout) {
             halign (Start)
             slot1{
               text("What type is `Pokemon name`?")
+            }
+          }
+        }
+          title-card{
+          title-area{
+            halign (Start)
+            slot1{
+              text("Show me the move `Pokemon move`")
             }
           }
         }

@@ -1,4 +1,4 @@
-action (PokemonCompare_action) {
+action (pokemonCompareTo) {
   type (Calculation)
   description (Compares two pokemon based off a stat and a comparison value)
   collect {

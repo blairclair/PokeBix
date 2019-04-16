@@ -1,6 +1,6 @@
 result-view  {
   match: Pokemon  (this){
-    from-output: PokemonCompare_action
+    from-output: pokemonCompareTo
   }
   render  {
 

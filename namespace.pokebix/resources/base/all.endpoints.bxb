@@ -9,7 +9,7 @@ endpoints {
       accepted-inputs (Pokemon_id)
       local-endpoint (findPokemonByID.js)
     }
-    action-endpoint (findRandomPokemon) {
+    action-endpoint (findPokemonRandom) {
       local-endpoint (findRandomPokemon.js)
     }
     action-endpoint (findTypeRelations) {
@@ -40,19 +40,15 @@ endpoints {
       accepted-inputs (Pokemon)
       local-endpoint (findPokemonStat.js)
     }
-    action-endpoint (PokemonCompare_action) {
+    action-endpoint (pokemonCompareTo) {
       accepted-inputs (PokemonCompareFirst, PokemonCompareSecond)
       local-endpoint (PokemonCompare_action.js)
-    }
-    action-endpoint (pokemonEvolvesTo) {
-      accepted-inputs (Pokemon)
-      local-endpoint (pokemonEvolvesTo.js)
     }
     action-endpoint (pokemonEvolvesFrom) {
       accepted-inputs (Pokemon)
       local-endpoint (pokemonEvolvesFrom.js)
     }
-    action-endpoint (HelpMenu_action) {
+    action-endpoint (ShowHelpMenu) {
       local-endpoint (HelpMenuAction.js)
     }
     action-endpoint (pokemonEvolvesFrom) {
@@ -77,16 +73,9 @@ endpoints {
     action-endpoint (playPokemonCry) {
       local-endpoint (playPokemonCry.js)
     }
-    action-endpoint (findMoveByName) {
+    action-endpoint (findPokemonMoveByName) {
       accepted-inputs (PokemonMoves_name)
       local-endpoint (findMorePokemonMoves.js)
     }
-    
-    // action-endpoint (__ACTION_NAME__) {
-    //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)
-    //   remote-endpoint (__ENDPOINT_URL__) {
-    //     method (__HTTP_METHOD_USED__)
-    //   }
-    // }
   }
 }

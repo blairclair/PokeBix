@@ -1,6 +1,6 @@
 result-view  {
   match: PokemonMoves  (this){
-    from-output: findMoveByName
+    from-output: findPokemonMoveByName
   }
   render  {
 

@@ -23,7 +23,7 @@ layout-macro-def(PokemonMovesLayoutMacro) {
           }
           on-click{
             intent{
-               goal: ShowMoveDetails
+               goal: findPokemonMoveByName
               value{ $expr(Pokemon.move_info[i])}
               }
           }

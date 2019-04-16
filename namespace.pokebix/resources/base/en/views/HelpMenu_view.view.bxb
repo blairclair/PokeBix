@@ -1,6 +1,6 @@
 result-view  {
   match: HelpMenu  (this){
-    from-output: HelpMenu_action
+    from-output: ShowHelpMenu
   }
   render  {
 
