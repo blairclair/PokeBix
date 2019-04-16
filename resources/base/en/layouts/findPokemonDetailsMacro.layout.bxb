@@ -33,7 +33,7 @@ layout-macro-def(findPokemonDetailsMacro) {
             }
             slot3{
               paragraph{
-                value("#{value(Pokemon.flavor_text)}  \n \n \n \n.") 
+                value("#{value(Pokemon.flavor_text)}  \n \n \n \n \n \n.") 
                 style(Detail_M)
               }
             }

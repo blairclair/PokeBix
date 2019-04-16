@@ -1,0 +1,5 @@
+train (t-e869z7rx3poqiq1g6i831h8x2) {
+  utterance ("[g:pokemonCompareTo] who weighs more {[g:PokemonCompareFirst] (wartortle)[v:Pokemon_name]} or {[g:PokemonCompareSecond] (alakazam)[v:Pokemon_name]}")
+  plan (Y+BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMihkwBRMY5P7cgsSg1JJ9BBZdmqBK3zKLiEjxWqBLQH5yanJ+XgscAJQyZtMy8FKisU6VfYm4qgywu3fF5IGkqGMHJwMjAxMDMwMLAysDGwM7AARRhAIsxAsWYgWKsQDFGoBgLGDOCZUGAFayKHSjGCaSZGFgA)
+  last-modified (1555454456513)
+}
