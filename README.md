@@ -1,4 +1,3 @@
-# samsunghackathon
 # Project Name: PokéBix
 
 # Team Members: 
