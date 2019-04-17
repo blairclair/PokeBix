@@ -1,0 +1,5 @@
+train (t-5g9k390nqnhjzezprtgvfncba) {
+  utterance ("[g:findTypeRelations] What is (water)[v:Type_name] (weak against)[v:Type_effect:'double damage from']?")
+  plan (Y2BjkCrIz04tSU3M1QMxkjIr9EIqC1Lj8xJzUxmUMOTSMvNSQPJBqTmJJZn5ecUMolj1M8hgNzY1LS01uYRBHqfBTpV+IJvxuYqVgZGBiYGZgQXIYgCyQTwWIMkA5oEAM5BmBskCAA==)
+  last-modified (1555462640031)
+}

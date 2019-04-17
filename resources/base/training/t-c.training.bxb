@@ -1,7 +1,7 @@
 train (t-c43cmizw278rvbho02rtgx006) {
   utterance ("[g:findTypeRelations] What is (flying)[v:Type_name] (super effective against)[v:Type_effect:'double damage to']?")
-  plan (Y2BjkCnISaxML8ovzUvRK8jPTk3KrNALqSxIjc9LzE1lUMEim5aZlwJSEZSak1iSmZ9XzCCOwwwGOVyGp6alpSaXMCjiMd6p0g/kAvzuY2VgZGBiYGZgAbIYgGwQjwVIMoB5IMAMpJlBsgA=)
-  last-modified (1555033910242)
+  plan (Y2BjkCrIz04tSU3M1QMxkjIr9EIqC1Lj8xJzUxmUMOTSMvNSQPJBqTmJJZn5ecUMolj1M8hgNzY1LS01uYRBHqfBTpV+IJvxuYqVgZGBiYGZgQXIYgCyQTwWIMkA5oEAM5BmBskCAA==)
+  last-modified (1555461774991)
 }
 train (t-c7g74t3wmd2pcp7wb6hafu05y) {
   utterance ([g:Pokemon_weight:continue:findPokemonSpecies,r:findPokemonSpecies] and how much does it weigh?)

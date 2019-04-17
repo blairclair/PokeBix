@@ -1,3 +1,8 @@
+train (t-d4wvchnkejfgmbwablyxswf0g) {
+  utterance ("[g:findTypeRelations] What is (water)[v:Type_name] (week against)[v:Type_effect:'double damage from']?")
+  plan (Y2BjkCrIz04tSU3M1QMxkjIr9EIqC1Lj8xJzUxmUMOTSMvNSQPJBqTmJJZn5ecUMolj1M8hgNzY1LS01uYRBHqfBTpV+IJvxuYqVgZGBiYGZgQXIYgCyQTwWIMkA5oEAM5BmBskCAA==)
+  last-modified (1555462665615)
+}
 train (t-d7ckolsisiec7y9iyotwp02aj) {
   utterance ("[g:findPokemonSpecies] Show me the Pokemon (ditto)[v:Pokemon_name]")
   plan (Y2BlkCrISaxML8ovzUvRK8jPTk3KrNALANK5+XkMqljk0jLzUqDywQWpyZmpxXiNUMFvhFOlX2JuKoM8bhPi80AKWBgYGZgYmIE0A5TFCGaBABOQBooDAA==)

@@ -3,3 +3,8 @@ train (t-e869z7rx3poqiq1g6i831h8x2) {
   plan (Y+BikCjIz04tSU3M1QMxkjIr9AKAdG5+HoMihkwBRMY5P7cgsSg1JJ9BBZdmqBK3zKLiEjxWqBLQH5yanJ+XgscAJQyZtMy8FKisU6VfYm4qgywu3fF5IGkqGMHJwMjAxMDMwMLAysDGwM7AARRhAIsxAsWYgWKsQDFGoBgLGDOCZUGAFayKHSjGCaSZGFgA)
   last-modified (1555454456513)
 }
+train (t-es6d2edsp6ec6ueoryabikbcq) {
+  utterance ("[g:findPokemonByName] who is (charizard)[v:Pokemon_name]?")
+  plan (Y2BmkCjIz04tSU3M1QMxkjIr9AKAdG5+HoMShkxaZl4KVNap0i8xN5VBFpfu+DyQNBMDIxAzAElGBhCA8gE=)
+  last-modified (1555462512936)
+}
