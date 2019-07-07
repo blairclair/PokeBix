@@ -9,11 +9,7 @@
 PokéBix demonstrates how to query multiple endpoints of an API to build models, which PokéBix uses to design views based off of custom layouts made to simulate a real Pokédex. Pokémon lovers will delight in being able to ask their PokéBix questions, just like Ash did in the original show!
 
 ## Examples
-Pokebix help
-----------------------------
+1. PokeBix help
 <img src="./assets/images/pokeHelp.png" width=300 height=500/>
-What is the pokemon Pikachu?
-----------------------------
-<br>
-
+2. What is the pokemon Pikachu?
 <img src="./assets/images/whosPikachu.png" width=300 height=500/>
