@@ -5,7 +5,7 @@
 - Ariella Grodzinsky – https://github.com/blairclair
 - Scott Snelgrove – https://github.com/ssnelgrove314 
 
-PokéBix demonstrates how to query multiple endpoints of an API to build models, which PokéBix uses to design views based off of custom layouts made to simulate a real Pokédex. Pokémon lovers will delight in being able to ask their PokéBix questions, just like Ash did in the original show!/
+PokéBix demonstrates how to query multiple endpoints of an API to build models, which PokéBix uses to design views based off of custom layouts made to simulate a real Pokédex. Pokémon lovers will delight in being able to ask their PokéBix questions, just like Ash did in the original show!\
 PokéBix won 3rd place in the Samsung Bixby hackathon at 42 Silicon Valley.
 
 ## Examples
