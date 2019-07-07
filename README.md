@@ -14,4 +14,5 @@ ______________________
 <img src="./assets/images/pokeHelp.png" width=300 height=500/>
 What is the pokemon Pikachu?
 ______________________
+
 <img src="./assets/images/whosPikachu.png" width=300 height=500/>
