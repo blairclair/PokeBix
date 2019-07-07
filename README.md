@@ -11,3 +11,5 @@ PokéBix demonstrates how to query multiple endpoints of an API to build models,
 ## Examples
 - Pokebix help
 <img src="./assets/images/pokeHelp.png" width=300 height=500/>
+- What is the pokemon Pikachu?
+<img src="./assets/images/whosPikachu.png" width=300 height=500/>
