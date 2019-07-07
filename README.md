@@ -14,5 +14,6 @@ Pokebix help
 <img src="./assets/images/pokeHelp.png" width=300 height=500/>
 What is the pokemon Pikachu?
 ----------------------------
+<br>
 
 <img src="./assets/images/whosPikachu.png" width=300 height=500/>
