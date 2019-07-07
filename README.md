@@ -13,3 +13,7 @@ PokéBix demonstrates how to query multiple endpoints of an API to build models,
 <img src="./assets/images/pokeHelp.png" width=300 height=500/>
 2. What is the pokemon Pikachu?
 <img src="./assets/images/whosPikachu.png" width=300 height=500/>
+3. And what are its moves?
+<img src="./assets/images/showMoves.png" width=300 height=500/>
+4. And show me its sprites.
+<img src="./assets/images/showSprites.png" width=300 height=500/>
